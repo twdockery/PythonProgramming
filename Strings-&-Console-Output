@@ -1,0 +1,62 @@
+# The string below is broken. Fix it using the escape backslash!
+print('This isn\'t flying, this is falling with style!')
+
+"""
+The string "PYTHON" has six characters,
+numbered 0 to 5, as shown below:
+
++---+---+---+---+---+---+
+| P | Y | T | H | O | N |
++---+---+---+---+---+---+
+  0   1   2   3   4   5
+
+So if you wanted "Y", you could just type
+"PYTHON"[1] (always start counting from 0!)
+"""
+
+# There are 4 basic string methods: len(), lower(), upper(), str()
+# len() is the length of the string in numbers
+
+parrot = "Norwegian Blue"
+print("How many letters are there in the string \"Norwegian Blue\"? " + str(len(parrot)))
+
+# lower() will get rid of any upper case letters in the string
+name = 'Tyler'
+print("whisper my name...")
+print(name.lower())
+
+# upper() will get rid of any lower case letters in the string
+name = 'Tyler'
+print("Now like you mean it...")
+print(name.upper())
+
+# str() will turn a number or variable into a string
+pi = 3.1415926
+print(str(pi))
+
+string_1 = "Camelot"
+string_2 = "place"
+
+print("Let's not go to %s. 'Tis a silly %s." % (string_1, string_2))
+
+day = 6
+print("03 - %s - 2019" %  (day))
+# 03 - 6 - 2019
+print("03 - %02d - 2019" % (day))
+# 03 - 06 - 2019
+
+print("The %s who %s %s!" % ("Knights", "say", "Ni"))
+# This will print "The Knights who say Ni!"
+
+name = "Alex"
+quest = "Teaching Python"
+color = "Blue"
+
+print("Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color))
+
+# Write your code below, starting on line 3!
+
+my_string = "help, I\'m trapped in a variable"
+print("the length of my variable is: " + str(len(my_string)))
+print(my_string.upper())
