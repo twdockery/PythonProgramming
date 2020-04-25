@@ -26,9 +26,8 @@ f = e
 
 # variables can contain math equations
 g = 10 * 2  # multiplication
-h = 10 / 3  # division (returns only integer value)
-h2 = 10 / 3. # division (returns floated decimal answer)
-h3 = 10 % 3 # remainder (division of terms returns ONLY the remainder value
+h = 10 / 3  # division
+h2 = 10 % 3 # remainder (division of terms returns ONLY the remainder value
 i = 10 + 2  # addition
 j = 10 - 2  # subtraction
 k = 1.5e4   # scientific notation
@@ -36,10 +35,9 @@ k2 = 10 ** 2 # exponents are created with 2 asterisks
 
 print(h)
 print (h2)
-print (h3)
 print(k)
 
-# variable can also calculate remainders
+# variable can also calculate remainders only using the % operator
 remainder = 17 % 3
 print(remainder)
 
@@ -50,10 +48,11 @@ b1 = "10"
 # this variable will slam the strings together
 c = a1 + b1
 
+print(c)
+
 # this will create a number
 d = int(a1) + int(b1)
 
-print(c)
 print(d)
 
 # by themselves, variables are split into types, but they can be combined with printing if converted to strings
@@ -70,16 +69,41 @@ a = 5
 print(a)
 print(b)
 
+# Variable can be swapped by introducing a 3rd variable
+opinion1 = "I want the Left"
+opinion2 = "I want the Right"
+
+print(opinion1 + " said the man on the left.")
+print(opinion2 + " said the man on the right.")
+
+print("That sounds fine. Guess I have a partner now!")
+temp = opinion1
+opinion1 = opinion2
+opinion2 = temp
+
+print(opinion1 + " then, said the man on the left.")
+print(opinion2 + " then, said the man on the right.")
+
+# This can even be shorter
+opinion1, opinion2 = opinion2, opinion1 # rather than using a temp, we can list them and then reassign them
+print("wait...")
+print(opinion1 + " then, said the man on the left.")
+print(opinion2 + " then, said the man on the right.")
+
 # here is an exercise for creating tips
 # Tax will be set to 8%
 # I will calculate a 15% and 20% tip
-entree = 15.25
-mealCost = entree * 1.08
+print("Welcome to my restaurant! Please look at the menu")
+entree = input("What does your entree cost? ")
+# if this number isn't a number, we'll have problems
+if len(entree) == 0 or entree.isalnum() == False:
+    print("that's not a price...")
+    entree = 0
+mealCost = int(entree) * 1.08
 tax15 = mealCost * 1.15
 tax20 = mealCost * 1.2
 
-print("Today's entree is a burrito the size of your head!")
 # I wanted to round the float, and had to look online. So, I skipped ahead and found out how to do this
 print("It will cost: $" + str(round(mealCost,2)) + " with tax.")
-print("$" + str(round(tax15,2)) +" with a 15% tip. $" + str(int(tax15)) + " would be nicer")
-print("$" + str(round(tax20,2)) +" with a 20% tip. $" + str(int(tax20)) + " would be nicer")
+print("$" + str(round(tax15,2)) +" with a 15% tip. $" + str(int(tax15) + 1) + " would be nicer")
+print("$" + str(round(tax20,2)) +" with a 20% tip. $" + str(int(tax20) + 1) + " would be nicer")
