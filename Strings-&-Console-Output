@@ -14,7 +14,7 @@ So if you wanted "Y", you could just type
 "PYTHON"[1] (always start counting from 0!)
 """
 
-# There are 4 basic string methods: len(), lower(), upper(), str()
+# There are a few basic string methods: len(), lower(), upper(), str()
 # len() is the length of the string in numbers
 
 parrot = "Norwegian Blue"
@@ -37,8 +37,15 @@ print(str(pi))
 string_1 = "Camelot"
 string_2 = "place"
 
+# adding variables at the end of a string allows you to place them mad libs style
+# %s is the replacement for a variable string within a print statement.
+# % comes after the quotes to note which items from the list ( item, item, etc.)
+# as noted below with the variables above
+
 print("Let's not go to %s. 'Tis a silly %s." % (string_1, string_2))
 
+# you can pad out your answers by adding 0 to the front of it
+# you can use a named integrer with %d
 day = 6
 print("03 - %s - 2019" %  (day))
 # 03 - 6 - 2019
@@ -55,8 +62,7 @@ color = "Blue"
 print("Ah, so your name is %s, your quest is %s, " \
 "and your favorite color is %s." % (name, quest, color))
 
-# Write your code below, starting on line 3!
-
+# when using quotes, its good to escape them with an escape character \' and \"
 my_string = "help, I\'m trapped in a variable"
 print("the length of my variable is: " + str(len(my_string)))
 print(my_string.upper())
