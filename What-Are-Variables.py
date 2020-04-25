@@ -3,10 +3,14 @@
 # Comments explain code to designers. Code explains comments to computers.
 
 # This is your standard Hello World Program
-# print("...") allows you to outpu to the program
+# print("...") allows you to output to the program
 print("Hello World!")
 
-# variables can be different items
+# This is too simple. Let's try some interactivity!
+name = input("What is your name? ")
+print("Hello " + name +"!")
+
+# variables can be different items, such as integers (whole numbers)
 a = 1
 b = 2
 
@@ -21,12 +25,18 @@ e = 13.
 f = e
 
 # variables can contain math equations
-g = 10 * 2
-h = 10 / 2
-i = 10 + 2
-j = 10 - 2
-k = 1.5e4
+g = 10 * 2  # multiplication
+h = 10 / 3  # division (returns only integer value)
+h2 = 10 / 3. # division (returns floated decimal answer)
+h3 = 10 % 3 # remainder (division of terms returns ONLY the remainder value
+i = 10 + 2  # addition
+j = 10 - 2  # subtraction
+k = 1.5e4   # scientific notation
+k2 = 10 ** 2 # exponents are created with 2 asterisks
 
+print(h)
+print (h2)
+print (h3)
 print(k)
 
 # variable can also calculate remainders
