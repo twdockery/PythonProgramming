@@ -14,8 +14,10 @@ def square(n):
     print("%d squared is %d." % (n, squared))
     return squared
 
+## ask for number and checks if its an integer
+number = input("Give Me A Whole Number: ")
+if number.isnumeric():
+    square(int(number))
+else:
+    print("that wasn't a whole number...")
 
-# Call the square function on line 10! Make sure to
-# include the number 10 between the parentheses.
-
-square(10)
