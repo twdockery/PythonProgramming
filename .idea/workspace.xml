@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="I am revisiting earlier projects and integrating new knowledge into earlier projects. Old versions should still be available through github versioning">
+    <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="Learning about functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FUNctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/FUNctions.py" afterDir="false" />
     </list>
@@ -187,8 +187,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.FUNctions" />
         <item itemvalue="Python.Madlibs" />
+        <item itemvalue="Python.FUNctions" />
         <item itemvalue="Python.What-Are-Variables" />
         <item itemvalue="Python.Input" />
       </list>
@@ -311,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587843331484</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Learning about functions">
+      <created>1587844209249</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1587844209249</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,7 +339,8 @@
     <MESSAGE value="Conditionals and Control Flow completed: Specifically:Comparators (==,&lt;=,&gt;=,&gt;,&lt;,!=) Booleans (0,1,False, True). and, or, not, and order of evaluation (not, and, or). if, elif, else conditionals" />
     <MESSAGE value="I am revisiting earlier projects and interating new knowledge into earlier projects. Old versions should still be available through github versioning" />
     <MESSAGE value="I am revisiting earlier projects and integrating new knowledge into earlier projects. Old versions should still be available through github versioning" />
-    <option name="LAST_COMMIT_MESSAGE" value="I am revisiting earlier projects and integrating new knowledge into earlier projects. Old versions should still be available through github versioning" />
+    <MESSAGE value="Learning about functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learning about functions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="184" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587769558599">
@@ -344,31 +352,31 @@
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state x="405" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.723@0.23.1280.723" timestamp="1587577033352" />
-    <state width="1239" height="168" key="GridCell.Tab.0.bottom" timestamp="1587844164279">
+    <state width="1239" height="168" key="GridCell.Tab.0.bottom" timestamp="1587853038646">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1587844164279" />
+    <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1587853038646" />
     <state width="1239" height="210" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1587825621172" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1587572824625" />
-    <state width="1239" height="168" key="GridCell.Tab.0.center" timestamp="1587844164278">
+    <state width="1239" height="168" key="GridCell.Tab.0.center" timestamp="1587853038645">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1587844164278" />
+    <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1587853038645" />
     <state width="1239" height="210" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1587825621171" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
-    <state width="1239" height="168" key="GridCell.Tab.0.left" timestamp="1587844164278">
+    <state width="1239" height="168" key="GridCell.Tab.0.left" timestamp="1587853038644">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1587844164278" />
+    <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1587853038644" />
     <state width="1239" height="210" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1587825621171" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1587572824623" />
-    <state width="1239" height="168" key="GridCell.Tab.0.right" timestamp="1587844164278">
+    <state width="1239" height="168" key="GridCell.Tab.0.right" timestamp="1587853038645">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1587844164278" />
+    <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1587853038645" />
     <state width="1239" height="210" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1587825621172" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />

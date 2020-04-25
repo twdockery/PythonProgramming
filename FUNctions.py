@@ -21,3 +21,19 @@ if number.isnumeric():
 else:
     print("that wasn't a whole number...")
 
+""" Functions can call other functions. Deserves another will return 3 from one_good_turn(0)"""
+
+def one_good_turn(n):
+    return n + 1
+
+def deserves_another(n):
+    return one_good_turn(n) + 2
+
+def shout(phrase):
+  if phrase == phrase.upper():
+    return "YOU'RE SHOUTING!"
+  else:
+    return "Can you speak up?"
+
+shout("I'M INTERESTED IN SHOUTING")
+
