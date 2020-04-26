@@ -43,3 +43,47 @@ def distance_from_zero(num):
   else:
     return "Nope"
 distance_from_zero(input("How far away is it? "))
+
+"""
+I don't understand how variables seem to come OUT of a variable.
+It seems smart to send complicated processes to variables so that you know where errors occur.
+However, if a variable is set, it cannot return the variable back...
+"""
+
+
+def hotel_cost(nights):
+    return 140 * nights
+
+
+def plane_ride_cost(city):
+    if city == "Charlotte":
+        return 183
+    elif city == "Tampa":
+        return 220
+    elif city == "Pittsburgh":
+        return 222
+    elif city == "Los Angeles":
+        return 475
+    else:
+        return "No flights there..."
+
+
+def rental_car_cost(days):
+    cost = 40 * days
+    if days >= 7:
+        cost -= 50  # $50 rebate for long rental
+        return cost
+    elif days >= 3:
+        cost -= 20  # $20 rebate for medium-length rental
+        return cost
+    else:
+        return cost
+
+
+def trip_cost(city, days, spending_money):
+    return rental_car_cost(days) + hotel_cost(days - 1) + plane_ride_cost(
+        city) + spending_money  # days-1 is because hotels charge by the night
+
+
+print
+trip_cost("Los Angeles", 5, 600)
