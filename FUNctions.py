@@ -37,3 +37,9 @@ def shout(phrase):
 
 shout("I'M INTERESTED IN SHOUTING")
 
+def distance_from_zero(num):
+  if type(num) == int or type(num) == float:
+    return abs(num)
+  else:
+    return "Nope"
+distance_from_zero(input("How far away is it? "))

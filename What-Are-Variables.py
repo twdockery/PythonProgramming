@@ -27,7 +27,8 @@ f = e
 # variables can contain math equations
 g = 10 * 2  # multiplication
 h = 10 / 3  # division
-h2 = 10 % 3 # remainder (division of terms returns ONLY the remainder value
+h2 = 10 % 3 # remainder (division of terms returns ONLY the remainder value)
+h3 = 10 // 3 # floor (division rounds down to the nearest whole number)
 i = 10 + 2  # addition
 j = 10 - 2  # subtraction
 k = 1.5e4   # scientific notation
@@ -40,6 +41,18 @@ print(k)
 # variable can also calculate remainders only using the % operator
 remainder = 17 % 3
 print(remainder)
+
+# variable can assign new values.
+a = 10
+
+a = 10  #(simple assignment) a = 10
+a += 5 #(increment assignment) a = 15
+a -= 5 #(decrement assignment) a = 5
+a *= 5 #(multiplication assignment) a = 50
+a /= 5 #(division assignment) a = 2
+a **= 5 #(power assignment) a = 10,000 or a = 10^5
+a %= 5 #(modulus assignment) a = 0 because there is no remainder
+a //= 5 #(floor division assignment) a = 2 because there is no decimals
 
 # variables can change forms
 a1 = "100"
