@@ -23,9 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="Learning about functions">
-      <change afterPath="$PROJECT_DIR$/Area Calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Number Guess.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FUNctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/FUNctions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
   </component>
-  <component name="RunManager" selected="Python.Area Calculator">
+  <component name="RunManager" selected="Python.Number Guess">
     <configuration name="Area Calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,27 +143,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Input" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Input" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Madlibs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,6 +156,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Madlibs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Number Guess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Number Guess.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Number Guess" />
         <item itemvalue="Python.Area Calculator" />
         <item itemvalue="Python.FUNctions" />
         <item itemvalue="Python.Madlibs" />
         <item itemvalue="Python.What-Are-Variables" />
-        <item itemvalue="Python.Input" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587911931473</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Learning about functions">
+      <created>1587920211939</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1587920211939</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,56 +395,56 @@
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state x="405" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.723@0.23.1280.723" timestamp="1587577033352" />
-    <state width="1239" height="168" key="GridCell.Tab.0.bottom" timestamp="1587920175780">
+    <state width="1239" height="168" key="GridCell.Tab.0.bottom" timestamp="1587921300014">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1587920175780" />
+    <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1587921300014" />
     <state width="1239" height="210" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1587825621172" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1587572824625" />
-    <state width="1239" height="168" key="GridCell.Tab.0.center" timestamp="1587920175779">
+    <state width="1239" height="168" key="GridCell.Tab.0.center" timestamp="1587921300013">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1587920175779" />
+    <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1587921300013" />
     <state width="1239" height="210" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1587825621171" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
-    <state width="1239" height="168" key="GridCell.Tab.0.left" timestamp="1587920175778">
+    <state width="1239" height="168" key="GridCell.Tab.0.left" timestamp="1587921300013">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1587920175778" />
+    <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1587921300013" />
     <state width="1239" height="210" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1587825621171" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1587572824623" />
-    <state width="1239" height="168" key="GridCell.Tab.0.right" timestamp="1587920175779">
+    <state width="1239" height="168" key="GridCell.Tab.0.right" timestamp="1587921300013">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1587920175779" />
+    <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1587921300013" />
     <state width="1239" height="210" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1587825621172" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
-    <state width="1239" height="210" key="GridCell.Tab.1.bottom" timestamp="1587919984805">
+    <state width="1239" height="210" key="GridCell.Tab.1.bottom" timestamp="1587920893094">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="210" key="GridCell.Tab.1.bottom/0.23.1280.710@0.23.1280.710" timestamp="1587919984805" />
+    <state width="1239" height="210" key="GridCell.Tab.1.bottom/0.23.1280.710@0.23.1280.710" timestamp="1587920893094" />
     <state width="1239" height="210" key="GridCell.Tab.1.bottom/0.23.1280.713@0.23.1280.713" timestamp="1587825621173" />
     <state width="1239" height="210" key="GridCell.Tab.1.bottom/0.23.1280.721@0.23.1280.721" timestamp="1587652886413" />
-    <state width="1239" height="210" key="GridCell.Tab.1.center" timestamp="1587919984804">
+    <state width="1239" height="210" key="GridCell.Tab.1.center" timestamp="1587920893094">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="210" key="GridCell.Tab.1.center/0.23.1280.710@0.23.1280.710" timestamp="1587919984804" />
+    <state width="1239" height="210" key="GridCell.Tab.1.center/0.23.1280.710@0.23.1280.710" timestamp="1587920893094" />
     <state width="1239" height="210" key="GridCell.Tab.1.center/0.23.1280.713@0.23.1280.713" timestamp="1587825621173" />
     <state width="1239" height="210" key="GridCell.Tab.1.center/0.23.1280.721@0.23.1280.721" timestamp="1587652886411" />
-    <state width="1239" height="210" key="GridCell.Tab.1.left" timestamp="1587919984804">
+    <state width="1239" height="210" key="GridCell.Tab.1.left" timestamp="1587920893093">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="210" key="GridCell.Tab.1.left/0.23.1280.710@0.23.1280.710" timestamp="1587919984804" />
+    <state width="1239" height="210" key="GridCell.Tab.1.left/0.23.1280.710@0.23.1280.710" timestamp="1587920893093" />
     <state width="1239" height="210" key="GridCell.Tab.1.left/0.23.1280.713@0.23.1280.713" timestamp="1587825621172" />
     <state width="1239" height="210" key="GridCell.Tab.1.left/0.23.1280.721@0.23.1280.721" timestamp="1587652886411" />
-    <state width="1239" height="210" key="GridCell.Tab.1.right" timestamp="1587919984805">
+    <state width="1239" height="210" key="GridCell.Tab.1.right" timestamp="1587920893094">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="210" key="GridCell.Tab.1.right/0.23.1280.710@0.23.1280.710" timestamp="1587919984805" />
+    <state width="1239" height="210" key="GridCell.Tab.1.right/0.23.1280.710@0.23.1280.710" timestamp="1587920893094" />
     <state width="1239" height="210" key="GridCell.Tab.1.right/0.23.1280.713@0.23.1280.713" timestamp="1587825621173" />
     <state width="1239" height="210" key="GridCell.Tab.1.right/0.23.1280.721@0.23.1280.721" timestamp="1587652886412" />
     <state x="404" y="94" key="RollbackChangesDialog" timestamp="1587775139369">
