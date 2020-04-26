@@ -1,7 +1,7 @@
 from random import randrange #this allows us to create random numbers
-secret = (int(randrange(10)) + 1)
+secret = (int(randrange(100)) + 1)
 def guessing():
-    print("Pick a number from 1 to 10: ")
+    print("Pick a number from 1 to 100: ")
     guess = int(input("Guess which number it is: "))
     if guess > secret:
         print("Too big...")
