@@ -15,6 +15,15 @@ prices = {
 }
 
 def compute_bill(food):
+  """
+  For every item in the shopping list, if there are items in stock, reduce the stock and add the cost to the total.
+  if none  are in stock, it will be skipped. The total will be returned
+  Args:
+    food: Items in the shopping list
+
+  Returns: Total
+
+  """
   total = 0
   for everyItem in food:
     if stock[everyItem] > 0:

@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="Trying to deal with functions effectively">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="Updating list and dictionaries">
+      <change beforePath="$PROJECT_DIR$/Shopping-LIst.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shopping-LIst.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -388,7 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587939294920</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Updating list and dictionaries">
+      <created>1588126075798</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1588126075798</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Updating list and dictionaries">
+      <created>1588126085834</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1588126085834</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,7 +425,8 @@
     <MESSAGE value="I am revisiting earlier projects and integrating new knowledge into earlier projects. Old versions should still be available through github versioning" />
     <MESSAGE value="Learning about functions" />
     <MESSAGE value="Trying to deal with functions effectively" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to deal with functions effectively" />
+    <MESSAGE value="Updating list and dictionaries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating list and dictionaries" />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="184" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587769558599">
