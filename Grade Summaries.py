@@ -18,17 +18,6 @@ tyler = {
   "tests": [100.0, 100.0]
 }
 
-# a list is built including all the students names
-students = (lloyd, alice, tyler)
-
-for everyItem in students:
-  print(everyItem["name"])
-  print(everyItem["homework"])
-  print(everyItem["quizzes"])
-  print(everyItem["tests"])
-  print("")
-
-
 def average(numbers):
     total = sum(numbers)
     total = float(total)
@@ -42,3 +31,14 @@ def get_average(student):
 
     total = homework * .1 + quizzes * .3 + tests * .6
     return total
+
+# a list is built including all the students names
+students = (lloyd, alice, tyler)
+
+for everyItem in students:
+  print(everyItem["name"])
+  print("Homework Grades: %s" % (everyItem["homework"]))
+  print("Quiz Grades: %s" % (everyItem["quizzes"]))
+  print("Test Grades: %s" % (everyItem["tests"]))
+  print("Final Grade at this time: %s" % (round(get_average(everyItem),2))) # rounds the variable to 2 places
+  print("")
