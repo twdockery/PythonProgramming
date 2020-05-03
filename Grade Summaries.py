@@ -1,3 +1,10 @@
+def get_class_average(class_list):
+  results = []
+  for student in class_list:
+    student_avg = get_average(student)
+    results.append(student_avg)
+  return average(results)
+
 # In this program, grades have been added to dictionaries
 lloyd = {
     "name": "Lloyd",
@@ -47,8 +54,16 @@ def get_letter_grade(score):
         return "F"
 
 
+def get_class_average(class_list):
+  results = []
+  for student in class_list:
+    student_avg = get_average(student)
+    results.append(student_avg)
+  return average(results)
+
 # a list is built including all the students names
 students = (lloyd, alice, tyler)
+class_list = (lloyd, alice, tyler)
 
 for everyItem in students:
     print(everyItem["name"])
@@ -56,6 +71,9 @@ for everyItem in students:
     print("Quiz Grades: %s" % (everyItem["quizzes"]))
     print("Test Grades: %s" % (everyItem["tests"]))
     print("Final Grade at this time: %s (%s)" % (
-    get_letter_grade(get_average(everyItem)), round(get_average(everyItem), 2)))  # rounds the variable to 2 places
+    round(get_average(everyItem), 2), get_letter_grade(get_average(everyItem))))  # rounds the variable to 2 places
     print("")
 
+print("Class Average: %s%% (%s)" % (round(get_class_average(class_list), 2), get_letter_grade(get_class_average(
+    class_list))) ) #%s substitutes, %s%% add % to the
+# substitute
