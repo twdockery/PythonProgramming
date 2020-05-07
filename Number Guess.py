@@ -1,5 +1,12 @@
 from random import randrange #this allows us to create random numbers
 secret = (int(randrange(100)) + 1)
+
+##################################
+# debug area
+##################################
+print(secret)
+
+
 def guessing():
     print("Pick a number from 1 to 100: ")
     guess = int(input("Guess which number it is: "))
