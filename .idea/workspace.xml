@@ -23,8 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="Created Battleship Game">
+      <change afterPath="$PROJECT_DIR$/Choose.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise-MagicNumber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Number Guess.py" beforeDir="false" afterPath="$PROJECT_DIR$/Number Guess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +61,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Number Guess">
+  <component name="RunManager" selected="Python.Exercise-MagicNumber">
     <configuration name="BattleShip" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,6 +77,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BattleShip.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Choose" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Choose.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,6 +140,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dates and Times" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exercise-MagicNumber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise-MagicNumber.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,55 +232,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Rock Paper Scissors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rock Paper Scissors.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Exercise-MagicNumber" />
+        <item itemvalue="Python.Choose" />
         <item itemvalue="Python.Number Guess" />
         <item itemvalue="Python.BattleShip" />
         <item itemvalue="Python.Range Test" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.Rock Paper Scissors" />
       </list>
     </recent_temporary>
   </component>
@@ -475,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588851056562</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Created Battleship Game">
+      <created>1588852239215</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1588852239215</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -512,32 +522,32 @@
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state x="405" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.723@0.23.1280.723" timestamp="1587577033352" />
-    <state width="1239" height="191" key="GridCell.Tab.0.bottom" timestamp="1588851655559">
+    <state width="1239" height="191" key="GridCell.Tab.0.bottom" timestamp="1589166077559">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="191" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1588851655559" />
-    <state width="1239" height="210" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1587825621172" />
+    <state width="1239" height="191" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1589166077559" />
+    <state width="1239" height="191" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1588959600307" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1587572824625" />
-    <state width="1239" height="191" key="GridCell.Tab.0.center" timestamp="1588851655558">
+    <state width="1239" height="191" key="GridCell.Tab.0.center" timestamp="1589166077559">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="191" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1588851655558" />
-    <state width="1239" height="210" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1587825621171" />
+    <state width="1239" height="191" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1589166077559" />
+    <state width="1239" height="191" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1588959600307" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
-    <state width="1239" height="191" key="GridCell.Tab.0.left" timestamp="1588851655558">
+    <state width="1239" height="191" key="GridCell.Tab.0.left" timestamp="1589166077558">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="191" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1588851655558" />
-    <state width="1239" height="210" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1587825621171" />
+    <state width="1239" height="191" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1589166077558" />
+    <state width="1239" height="191" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1588959600306" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1587572824623" />
-    <state width="1239" height="191" key="GridCell.Tab.0.right" timestamp="1588851655559">
+    <state width="1239" height="191" key="GridCell.Tab.0.right" timestamp="1589166077559">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="191" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1588851655559" />
-    <state width="1239" height="210" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1587825621172" />
+    <state width="1239" height="191" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1589166077559" />
+    <state width="1239" height="191" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1588959600307" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
     <state width="1239" height="210" key="GridCell.Tab.1.bottom" timestamp="1587920893094">
@@ -568,15 +578,15 @@
       <screen x="0" y="23" width="1280" height="710" />
     </state>
     <state x="404" y="94" key="RollbackChangesDialog/0.23.1280.710@0.23.1280.710" timestamp="1587775139369" />
-    <state x="157" y="23" width="982" height="710" key="SettingsEditor" timestamp="1587771717137">
+    <state x="157" y="23" width="982" height="710" key="SettingsEditor" timestamp="1588976732444">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state x="157" y="23" width="982" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1587771717137" />
+    <state x="157" y="23" width="982" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1588976732444" />
     <state x="157" y="23" key="SettingsEditor/0.23.1280.723@0.23.1280.723" timestamp="1587577435749" />
-    <state x="250" y="110" key="Vcs.Push.Dialog.v2" timestamp="1588851069586">
+    <state x="250" y="110" key="Vcs.Push.Dialog.v2" timestamp="1588852259013">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.710@0.23.1280.710" timestamp="1588851069586" />
+    <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.710@0.23.1280.710" timestamp="1588852259013" />
     <state x="433" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587775821461">
       <screen x="0" y="23" width="1280" height="710" />
     </state>

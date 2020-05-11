@@ -20,8 +20,6 @@ def daily(currentCash):
     if secret > currentCash:  # you can't take what you don't have
         secret = currentCash
     currentCash -= (secret) # the secret number is removed from cash
-
-
     return secret
 
 ##############################################
