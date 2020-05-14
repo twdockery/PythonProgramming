@@ -22,10 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="Created Battleship Game">
-      <change afterPath="$PROJECT_DIR$/Prime-Test.py" afterDir="false" />
+    <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="Created Prime Number Checking program">
+      <change afterPath="$PROJECT_DIR$/reverse-string.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Range Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Range Test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Prime-Test">
+  <component name="RunManager" selected="Python.reverse-string">
     <configuration name="Choose" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,27 +171,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Number Guess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Number Guess.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Prime-Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,13 +213,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="reverse-string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reverse-string.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reverse-string" />
         <item itemvalue="Python.Prime-Test" />
         <item itemvalue="Python.Range Test" />
         <item itemvalue="Python.Exercise-MagicNumber" />
         <item itemvalue="Python.Choose" />
-        <item itemvalue="Python.Number Guess" />
       </list>
     </recent_temporary>
   </component>
@@ -495,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589166110514</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Created Prime Number Checking program">
+      <created>1589422782376</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1589422782376</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,7 +526,8 @@
     <MESSAGE value="Trying to deal with functions effectively" />
     <MESSAGE value="Updating list and dictionaries" />
     <MESSAGE value="Created Battleship Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Battleship Game" />
+    <MESSAGE value="Created Prime Number Checking program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Prime Number Checking program" />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="184" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587769558599">
@@ -532,31 +539,31 @@
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state x="405" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.723@0.23.1280.723" timestamp="1587577033352" />
-    <state width="1239" height="191" key="GridCell.Tab.0.bottom" timestamp="1589422741062">
+    <state width="1239" height="191" key="GridCell.Tab.0.bottom" timestamp="1589427084586">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="191" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1589422741062" />
+    <state width="1239" height="191" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1589427084586" />
     <state width="1239" height="191" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1589417005030" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1587572824625" />
-    <state width="1239" height="191" key="GridCell.Tab.0.center" timestamp="1589422741062">
+    <state width="1239" height="191" key="GridCell.Tab.0.center" timestamp="1589427084585">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="191" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1589422741062" />
+    <state width="1239" height="191" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1589427084585" />
     <state width="1239" height="191" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1589417005030" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
-    <state width="1239" height="191" key="GridCell.Tab.0.left" timestamp="1589422741061">
+    <state width="1239" height="191" key="GridCell.Tab.0.left" timestamp="1589427084585">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="191" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1589422741061" />
+    <state width="1239" height="191" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1589427084585" />
     <state width="1239" height="191" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1589417005029" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1587572824623" />
-    <state width="1239" height="191" key="GridCell.Tab.0.right" timestamp="1589422741062">
+    <state width="1239" height="191" key="GridCell.Tab.0.right" timestamp="1589427084586">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="191" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1589422741062" />
+    <state width="1239" height="191" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1589427084586" />
     <state width="1239" height="191" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1589417005030" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
