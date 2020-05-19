@@ -23,9 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="Exercises in if/else statements">
-      <change afterPath="$PROJECT_DIR$/Shipping-costs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Water-Usage-Costs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCKERY-Lab03P1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,28 +65,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Shipping-costs">
-    <configuration name="Admissions-calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Admissions-calculator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Water-Usage-Costs">
     <configuration name="Conditionals and Control Flow" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,13 +213,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Water-Usage-Costs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Water-Usage-Costs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Water-Usage-Costs" />
         <item itemvalue="Python.Shipping-costs" />
         <item itemvalue="Python.Largest-Number" />
         <item itemvalue="Python.Minutes-since-midnight" />
         <item itemvalue="Python.Taxes-basic" />
-        <item itemvalue="Python.Admissions-calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -586,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589896036009</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Exercises in if/else statements">
+      <created>1589899132277</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1589899132277</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -627,31 +633,31 @@
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state x="405" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.723@0.23.1280.723" timestamp="1587577033352" />
-    <state width="1239" height="164" key="GridCell.Tab.0.bottom" timestamp="1589899035783">
+    <state width="1239" height="164" key="GridCell.Tab.0.bottom" timestamp="1589901909637">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="164" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1589899035783" />
+    <state width="1239" height="164" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1589901909637" />
     <state width="1239" height="164" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1589823049182" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1587572824625" />
-    <state width="1239" height="164" key="GridCell.Tab.0.center" timestamp="1589899035782">
+    <state width="1239" height="164" key="GridCell.Tab.0.center" timestamp="1589901909636">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="164" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1589899035782" />
+    <state width="1239" height="164" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1589901909636" />
     <state width="1239" height="164" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1589823049182" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
-    <state width="1239" height="164" key="GridCell.Tab.0.left" timestamp="1589899035781">
+    <state width="1239" height="164" key="GridCell.Tab.0.left" timestamp="1589901909636">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="164" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1589899035781" />
+    <state width="1239" height="164" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1589901909636" />
     <state width="1239" height="164" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1589823049181" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1587572824623" />
-    <state width="1239" height="164" key="GridCell.Tab.0.right" timestamp="1589899035782">
+    <state width="1239" height="164" key="GridCell.Tab.0.right" timestamp="1589901909637">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="164" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1589899035782" />
+    <state width="1239" height="164" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1589901909637" />
     <state width="1239" height="164" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1589823049182" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
@@ -688,10 +694,10 @@
     </state>
     <state x="157" y="23" width="982" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1588976732444" />
     <state x="157" y="23" key="SettingsEditor/0.23.1280.723@0.23.1280.723" timestamp="1587577435749" />
-    <state x="250" y="110" key="Vcs.Push.Dialog.v2" timestamp="1589896046119">
+    <state x="250" y="110" key="Vcs.Push.Dialog.v2" timestamp="1589899148321">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.710@0.23.1280.710" timestamp="1589896046119" />
+    <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.710@0.23.1280.710" timestamp="1589899148321" />
     <state x="433" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589858703430">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
