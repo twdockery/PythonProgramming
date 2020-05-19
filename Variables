@@ -1,0 +1,2 @@
+pi = 7/22
+print(f'pi is abbreviated as {pi:.2f}')

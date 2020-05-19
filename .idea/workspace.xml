@@ -22,9 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="Fixing prime numbers and the censor program">
-      <change afterPath="$PROJECT_DIR$/Remove-Duplicates.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taxes-basic.py" afterDir="false" />
+    <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="Starting a new phase in programming csc121">
+      <change afterPath="$PROJECT_DIR$/Admissions-calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Carnival-Food-Calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grades-basic-calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Variables" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,8 +68,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Taxes-basic">
-    <configuration name="Censor-Words" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Carnival-Food-Calculator">
+    <configuration name="Admissions-calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,7 +81,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Censor-Words.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Admissions-calculator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Carnival-Food-Calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Carnival-Food-Calculator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="No-Vowels-Allowed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Grades-basic-calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,49 +186,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/No-Vowels-Allowed.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Remove-Duplicates" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Remove-Duplicates.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Scrabble-Score" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scrabble-Score.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Grades-basic-calculator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,13 +216,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Variables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Variables" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Carnival-Food-Calculator" />
+        <item itemvalue="Python.Variables" />
         <item itemvalue="Python.Taxes-basic" />
-        <item itemvalue="Python.Remove-Duplicates" />
-        <item itemvalue="Python.Censor-Words" />
-        <item itemvalue="Python.Scrabble-Score" />
-        <item itemvalue="Python.No-Vowels-Allowed" />
+        <item itemvalue="Python.Admissions-calculator" />
+        <item itemvalue="Python.Grades-basic-calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -523,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589504258519</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Starting a new phase in programming csc121">
+      <created>1589818226038</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1589818226038</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,68 +559,69 @@
     <MESSAGE value="Created Battleship Game" />
     <MESSAGE value="Created Prime Number Checking program" />
     <MESSAGE value="Fixing prime numbers and the censor program" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing prime numbers and the censor program" />
+    <MESSAGE value="Starting a new phase in programming csc121" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting a new phase in programming csc121" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="379" y="184" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587769558599">
+    <state x="379" y="184" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589852777215">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state x="379" y="184" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.710@0.23.1280.710" timestamp="1587769558599" />
+    <state x="379" y="184" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.710@0.23.1280.710" timestamp="1589852777215" />
     <state x="379" y="187" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.724@0.23.1280.724" timestamp="1587508174642" />
     <state x="405" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587577033352">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state x="405" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.723@0.23.1280.723" timestamp="1587577033352" />
-    <state width="1239" height="164" key="GridCell.Tab.0.bottom" timestamp="1589818024124">
+    <state width="1239" height="164" key="GridCell.Tab.0.bottom" timestamp="1589856318931">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="164" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1589818024124" />
-    <state width="1239" height="191" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1589417005030" />
+    <state width="1239" height="164" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1589856318931" />
+    <state width="1239" height="164" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1589823049182" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1587572824625" />
-    <state width="1239" height="164" key="GridCell.Tab.0.center" timestamp="1589818024123">
+    <state width="1239" height="164" key="GridCell.Tab.0.center" timestamp="1589856318930">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="164" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1589818024123" />
-    <state width="1239" height="191" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1589417005030" />
+    <state width="1239" height="164" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1589856318930" />
+    <state width="1239" height="164" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1589823049182" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
-    <state width="1239" height="164" key="GridCell.Tab.0.left" timestamp="1589818024121">
+    <state width="1239" height="164" key="GridCell.Tab.0.left" timestamp="1589856318930">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="164" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1589818024121" />
-    <state width="1239" height="191" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1589417005029" />
+    <state width="1239" height="164" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1589856318930" />
+    <state width="1239" height="164" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1589823049181" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1587572824623" />
-    <state width="1239" height="164" key="GridCell.Tab.0.right" timestamp="1589818024123">
+    <state width="1239" height="164" key="GridCell.Tab.0.right" timestamp="1589856318930">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="164" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1589818024123" />
-    <state width="1239" height="191" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1589417005030" />
+    <state width="1239" height="164" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1589856318930" />
+    <state width="1239" height="164" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1589823049182" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
-    <state width="1239" height="210" key="GridCell.Tab.1.bottom" timestamp="1587920893094">
+    <state width="1239" height="210" key="GridCell.Tab.1.bottom" timestamp="1589855895889">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="210" key="GridCell.Tab.1.bottom/0.23.1280.710@0.23.1280.710" timestamp="1587920893094" />
+    <state width="1239" height="210" key="GridCell.Tab.1.bottom/0.23.1280.710@0.23.1280.710" timestamp="1589855895889" />
     <state width="1239" height="210" key="GridCell.Tab.1.bottom/0.23.1280.713@0.23.1280.713" timestamp="1587825621173" />
     <state width="1239" height="210" key="GridCell.Tab.1.bottom/0.23.1280.721@0.23.1280.721" timestamp="1587652886413" />
-    <state width="1239" height="210" key="GridCell.Tab.1.center" timestamp="1587920893094">
+    <state width="1239" height="210" key="GridCell.Tab.1.center" timestamp="1589855895888">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="210" key="GridCell.Tab.1.center/0.23.1280.710@0.23.1280.710" timestamp="1587920893094" />
+    <state width="1239" height="210" key="GridCell.Tab.1.center/0.23.1280.710@0.23.1280.710" timestamp="1589855895888" />
     <state width="1239" height="210" key="GridCell.Tab.1.center/0.23.1280.713@0.23.1280.713" timestamp="1587825621173" />
     <state width="1239" height="210" key="GridCell.Tab.1.center/0.23.1280.721@0.23.1280.721" timestamp="1587652886411" />
-    <state width="1239" height="210" key="GridCell.Tab.1.left" timestamp="1587920893093">
+    <state width="1239" height="210" key="GridCell.Tab.1.left" timestamp="1589855895888">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="210" key="GridCell.Tab.1.left/0.23.1280.710@0.23.1280.710" timestamp="1587920893093" />
+    <state width="1239" height="210" key="GridCell.Tab.1.left/0.23.1280.710@0.23.1280.710" timestamp="1589855895888" />
     <state width="1239" height="210" key="GridCell.Tab.1.left/0.23.1280.713@0.23.1280.713" timestamp="1587825621172" />
     <state width="1239" height="210" key="GridCell.Tab.1.left/0.23.1280.721@0.23.1280.721" timestamp="1587652886411" />
-    <state width="1239" height="210" key="GridCell.Tab.1.right" timestamp="1587920893094">
+    <state width="1239" height="210" key="GridCell.Tab.1.right" timestamp="1589855895888">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="210" key="GridCell.Tab.1.right/0.23.1280.710@0.23.1280.710" timestamp="1587920893094" />
+    <state width="1239" height="210" key="GridCell.Tab.1.right/0.23.1280.710@0.23.1280.710" timestamp="1589855895888" />
     <state width="1239" height="210" key="GridCell.Tab.1.right/0.23.1280.713@0.23.1280.713" timestamp="1587825621173" />
     <state width="1239" height="210" key="GridCell.Tab.1.right/0.23.1280.721@0.23.1280.721" timestamp="1587652886412" />
     <state x="404" y="94" key="RollbackChangesDialog" timestamp="1587775139369">
@@ -623,10 +633,10 @@
     </state>
     <state x="157" y="23" width="982" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1588976732444" />
     <state x="157" y="23" key="SettingsEditor/0.23.1280.723@0.23.1280.723" timestamp="1587577435749" />
-    <state x="250" y="110" key="Vcs.Push.Dialog.v2" timestamp="1589818195627">
+    <state x="250" y="110" key="Vcs.Push.Dialog.v2" timestamp="1589855688471">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.710@0.23.1280.710" timestamp="1589818195627" />
+    <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.710@0.23.1280.710" timestamp="1589855688471" />
     <state x="433" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587775821461">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
