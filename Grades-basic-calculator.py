@@ -1,4 +1,4 @@
-# Tyler Dockery for CSC121 5-28-2020 twdockery@waketech.edu
+# Tyler Dockery for CSC121 5-18-2020 twdockery@waketech.edu
 """
 Each student in a course needs to submit 3 lab assignments and take 2 tests.  Design a program to do the following.  Ask the user to enter 3 lab scores and 2 test scores.  Calculate and display the lab average and the test average.  Also calculate and display the course grade, which equals 55% of the lab average plus 45% of the test average.
 Step 1: input lab1
