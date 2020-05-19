@@ -11,6 +11,8 @@ Step 7: display annual after
 Step 8: display instant before
 Step 9: display instant after
 """
+x = 3.14159
+print(f"{x:.2f}")
 jackpot = int(input("How much is the jackpot amount? "))
 annual_before = jackpot / 20
 annual_after = (jackpot / 20) * .7
