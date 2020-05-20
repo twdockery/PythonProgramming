@@ -1,3 +1,5 @@
+test = run = charge = fire = 0
+print(test, run, charge, fire)
 #################
 # just a test to figure out about functions
 #################

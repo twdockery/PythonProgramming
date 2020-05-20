@@ -7,6 +7,8 @@ hour = int(input("What is the Hour? "))
 minute = int(input("What is the Minute? "))
 second = int(input("What are the seconds? "))
 am_or_pm = (input("Is it AM or PM? "))
+if am_or_pm.lower() == "am" and hour == 12:
+    hour = 0
 since_midnight = (hour * (60 ** 2)) + (minute * 60) + second
 if am_or_pm.lower() == "pm":
     since_midnight += (12 * (60 ** 2))
