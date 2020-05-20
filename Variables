@@ -1,2 +1,2 @@
-test = run = charge = fire = 0
-print(test, run, charge, fire)
+for everyItem in range(4)
+    print(everyitem)

@@ -22,15 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="Exercises in if/else statements">
-      <change afterPath="$PROJECT_DIR$/DOCKERY-Lab03P4-CSC121.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOCKERY-Lab04P1-CSC121.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Diabetes-Diagnosis.py" afterDir="false" />
+    <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="Exercises in definite / indefinite Loops">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/tyler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basketball-Score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DOCKERY-Lab04p3-CSC121.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Random-integer-testing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCKERY-Lab03P1-CSC121.py" beforeDir="false" afterPath="$PROJECT_DIR$/DOCKERY-Lab03P1-CSC121.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Variables" beforeDir="false" afterPath="$PROJECT_DIR$/Variables" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Water-Usage-Costs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Water-Usage-Costs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,18 +60,39 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CSC121-Python-Programming" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../../CSC121-Python-Programming" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/../../CSC121-Python-Programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DOCKERY-Lab04P2-CSC121">
+  <component name="RunManager" selected="Python.Random-integer-testing">
+    <configuration name="Basketball-Score" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basketball-Score.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Conditionals and Control Flow" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,27 +106,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Conditionals and Control Flow.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DOCKERY-Lab03P1-CSC121" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DOCKERY-Lab03P1-CSC121.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,27 +156,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Diabetes-Diagnosis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Diabetes-Diagnosis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Grade Summaries" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,6 +169,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Grade Summaries.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Random-integer-testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Random-integer-testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.DOCKERY-Lab04P2-CSC121" />
+        <item itemvalue="Python.Random-integer-testing" />
+        <item itemvalue="Python.Basketball-Score" />
         <item itemvalue="Python.Variables" />
+        <item itemvalue="Python.DOCKERY-Lab04P2-CSC121" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.Diabetes-Diagnosis" />
-        <item itemvalue="Python.DOCKERY-Lab03P1-CSC121" />
       </list>
     </recent_temporary>
   </component>
@@ -263,13 +261,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587506296706</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Date &amp; Time adjustments made">
-      <created>1587513718708</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1587513718708</updated>
     </task>
     <task id="LOCAL-00002" summary="Conditionals and Control Flow completed: Specifically:Comparators (==,&lt;=,&gt;=,&gt;,&lt;,!=) Booleans (0,1,False, True). and, or, not, and order of evaluation (not, and, or). if, elif, else conditionals">
       <created>1587657352609</created>
@@ -607,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589901948345</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Exercises in definite / indefinite Loops">
+      <created>1589996297167</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1589996297168</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -637,7 +635,8 @@
     <MESSAGE value="Fixing prime numbers and the censor program" />
     <MESSAGE value="Starting a new phase in programming csc121" />
     <MESSAGE value="Exercises in if/else statements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercises in if/else statements" />
+    <MESSAGE value="Exercises in definite / indefinite Loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercises in definite / indefinite Loops" />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="184" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589852777215">
@@ -649,31 +648,31 @@
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state x="405" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.723@0.23.1280.723" timestamp="1587577033352" />
-    <state width="1239" height="164" key="GridCell.Tab.0.bottom" timestamp="1589996212866">
+    <state width="1239" height="164" key="GridCell.Tab.0.bottom" timestamp="1590006717251">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="164" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1589996212866" />
+    <state width="1239" height="164" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1590006717251" />
     <state width="1239" height="164" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1589823049182" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1587572824625" />
-    <state width="1239" height="164" key="GridCell.Tab.0.center" timestamp="1589996212865">
+    <state width="1239" height="164" key="GridCell.Tab.0.center" timestamp="1590006717251">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="164" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1589996212865" />
+    <state width="1239" height="164" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1590006717251" />
     <state width="1239" height="164" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1589823049182" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
-    <state width="1239" height="164" key="GridCell.Tab.0.left" timestamp="1589996212864">
+    <state width="1239" height="164" key="GridCell.Tab.0.left" timestamp="1590006717250">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="164" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1589996212864" />
+    <state width="1239" height="164" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1590006717250" />
     <state width="1239" height="164" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1589823049181" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1587572824623" />
-    <state width="1239" height="164" key="GridCell.Tab.0.right" timestamp="1589996212865">
+    <state width="1239" height="164" key="GridCell.Tab.0.right" timestamp="1590006717251">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="164" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1589996212865" />
+    <state width="1239" height="164" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1590006717251" />
     <state width="1239" height="164" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1589823049182" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
@@ -705,10 +704,10 @@
       <screen x="0" y="23" width="1280" height="710" />
     </state>
     <state x="404" y="94" key="RollbackChangesDialog/0.23.1280.710@0.23.1280.710" timestamp="1587775139369" />
-    <state x="157" y="23" width="982" height="710" key="SettingsEditor" timestamp="1588976732444">
+    <state x="131" y="23" width="982" height="710" key="SettingsEditor" timestamp="1589998697860">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state x="157" y="23" width="982" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1588976732444" />
+    <state x="131" y="23" width="982" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1589998697860" />
     <state x="157" y="23" key="SettingsEditor/0.23.1280.723@0.23.1280.723" timestamp="1587577435749" />
     <state x="250" y="110" key="Vcs.Push.Dialog.v2" timestamp="1589904529831">
       <screen x="0" y="23" width="1280" height="710" />
