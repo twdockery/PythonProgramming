@@ -9,10 +9,10 @@ computer = randint(6,9)
 #print(computer) # debug area
 
 for i in range(3): # use a for loop to generate these three random integers.
-    human = randint(1,10)  #generate and display one random integer in the range of 1 through 10.
+    human = randint(1,10)  #generate/display one random integer in the range of 1-10.
     print(human)
     if human > computer:
-        print("You have won the game")#If it is larger than the computer’s pick, display “You have won the game” and break out of the loop.
+        print("You have won the game")  #human > computer, display “You have won the game” and break out of the loop.
         break
     else:
         if i == 2:

@@ -1,2 +1,4 @@
-for everyItem in range(4)
-    print(everyitem)
+for i in range(5):
+    num = int(input("Enter an integer: "))
+    t = t + num
+print(t)
