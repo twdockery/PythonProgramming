@@ -1,3 +1,4 @@
+#Tyler Dockery for CSC121 5-21-2020 twdockery@waketech.edu
 """
 Write a Python program to do the following:
 	•	Ask the user to enter as many integers from 1 to 10 as he/she wants. Store the integers in a list.  Every time after the user has entered an integer, use a yes/no type question to ask whether the user wants to enter another one.  Display the list.
