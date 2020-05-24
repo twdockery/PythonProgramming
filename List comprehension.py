@@ -63,18 +63,23 @@ for x in list1:
 print(f"Part c: {newlist}"),
 # print("c: [[2, 3], [5, 6], [7, 8], [8, 9]]") #Debug area
 
+
 newlist = []
-# newlist = [[x, y for x in list1 for y in list2][ x + ' vs. ' + y for x in team1 for y in team2]
-
-for r in list1:
-    for c in list2:
-        newlist = newlist[r][c]
-
-print(all_students)
+for x in list1:
+    for y in list2:
+        newlist.append([x,y])
 print(f"Part d: {newlist}")
-print("d: [[2, 1], [2, 2], [5, 1], [5, 2], [7, 1], [7, 2], [8, 1], [8, 2]]")
+# print("d: [[2, 1], [2, 2], [5, 1], [5, 2], [7, 1], [7, 2], [8, 1], [8, 2]]") #Debug area
+
+newlist = []
+for x in list1:
+    for y in list2:
+        newlist.append([x + y, x + y + 1])
+print(f"Part e: {newlist}"),
+print("e: [[3, 4], [6, 7], [8, 9], [9, 10]]")
+
 
 """
-print("Part e: list 1 & list 2 "),
-print("e: [[3, 4], [6, 7], [8, 9], [9, 10]]")
+list1 = [2, 5, 7, 8]
+list2 = [1, 2]
 """
