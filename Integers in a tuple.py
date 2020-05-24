@@ -1,3 +1,4 @@
+# Tyler Dockery for CSC121  5-23-2020  twdockery@waketech.edu
 """
 Write a Python program to do the following:
 	•	Use a for loop and a random integer generator to generate 10 random integers in 1 through 15.  Store the random integers in a tuple.  Display the tuple. [Hint: you may want to store the random integers in a list first and then convert the list to a tuple]
@@ -22,11 +23,12 @@ for x in range(10): #Use a for loop and a random integer generator to generate 1
 # print(list1)  # just a debug area
 
 # Store the random integers in a tuple.  Display the tuple.
-tuple10 = list1[0:10] # all 10 randoms stored
-tuple3 = tuple10[0:3] # list item
-tuplel3 = tuple10[7:10] # list item from (length -3 to length)
-tuplecon = tuple3 + tuplel3 # tuple first 3 + tuple last 3 concatenated
-tupleconsort = sorted(tuplecon) # concatenated tuple sorted
+tuple10 = list1[0:10]                  # all 10 randoms stored
+tuple10 = tuple(tuple10)
+tuple3 = tuple10[0:3]                  # list item
+tuplel3 = tuple10[7:10]                # list item from (length -3 to length)
+tuplecon = tuple3 + tuplel3            # tuple first 3 + tuple last 3 concatenated
+tupleconsort = tuple(sorted(tuplecon)) # concatenated tuple sorted
 
 print("Tuple of 10 random numbers:",tuple10)
 print("Tuple of first 3 numbers: ",tuple3)
