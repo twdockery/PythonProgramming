@@ -1,8 +1,11 @@
-list1 = [6, 2, 7, 8, 2]
-list2 = [1, 2]
+list1 = [2, 5, 7, 8]
+list2 =[1, 2]
 list3 = []
+newlist = []
 
 for x in list1:
+    list3 = []
     for y in list2:
-        list3.append([x,y])
-print(list3)
+        list3.append(x+y)
+    newlist.append(list3)
+print(newlist)
