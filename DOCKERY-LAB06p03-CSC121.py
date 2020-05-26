@@ -17,17 +17,17 @@ Two tuples concatenated and sorted: (1, 3, 3, 4, 7, 12)
 """
 from random import randint
 list1 = []
-# [Hint: you may want to store the random integers in a list first and then convert the list to a tuple]
-for x in range(10): #Use a for loop and a random integer generator to generate 10 random integers in 1 through 15.
+# [Hint: Store the random integers in a list first and then convert the list to a tuple]
+for x in range(10): #Generate 10 random integers in 1 through 15.
     list1.append(randint(1,15))  # Storing in a list because tuples cannot be altered
 # print(list1)  # just a debug area
 
 # Store the random integers in a tuple.  Display the tuple.
 tuple10 = list1[0:10]                  # all 10 randoms stored
 tuple10 = tuple(tuple10)
-tuple3 = tuple10[0:3]                  # list item
-tuplel3 = tuple10[7:10]                # list item from (length -3 to length)
-tuplecon = tuple3 + tuplel3            # tuple first 3 + tuple last 3 concatenated
+tuple3 = tuple(tuple10[0:3])                  # list item
+tuplel3 = tuple(tuple10[7:10])                # list item from (length -3 to length)
+tuplecon = tuple(tuple3 + tuplel3)            # tuple first 3 + tuple last 3 concatenated
 tupleconsort = tuple(sorted(tuplecon)) # concatenated tuple sorted
 
 print("Tuple of 10 random numbers:",tuple10)

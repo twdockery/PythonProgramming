@@ -39,9 +39,9 @@ print("All scores: ",new_scores)
 
 # compare lists
 print("\033[1mStudents whose scores have changed: \033[0m") #bold for fun
-if scores is not new_scores:
+if scores == new_scores:
+    print("No scores have changed")
+else:
     for everyitem in range(len(scores)):
         if scores[everyitem] != new_scores[everyitem]:
             print(f"Old Score: {scores[everyitem]}  New Score {new_scores[everyitem]}")
-else:
-    print("No grades have changed. ") #just in case no scores have changed

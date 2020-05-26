@@ -22,11 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="Exercises in creating lists">
-      <change afterPath="$PROJECT_DIR$/DOCKERY-Lab06p04-CSC121.py" afterDir="false" />
+    <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="exercises in creating lists">
+      <change afterPath="$PROJECT_DIR$/venv/Jones.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/List comprehension.py" beforeDir="false" afterPath="$PROJECT_DIR$/List comprehension.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Variables" beforeDir="false" afterPath="$PROJECT_DIR$/Variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCKERY-LAB06p03-CSC121.py" beforeDir="false" afterPath="$PROJECT_DIR$/DOCKERY-LAB06p03-CSC121.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCKERY-Lab06p01-CSC121.py" beforeDir="false" afterPath="$PROJECT_DIR$/DOCKERY-Lab06p01-CSC121.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCKERY-Lab06p02-CSC121.py" beforeDir="false" afterPath="$PROJECT_DIR$/DOCKERY-Lab06p02-CSC121.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DOCKERY-Lab06p04-CSC121.py" beforeDir="false" afterPath="$PROJECT_DIR$/DOCKERY-Lab06p04-CSC121.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
       <recent name="$PROJECT_DIR$/../../CSC121-Python-Programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.List comprehension">
+  <component name="RunManager" selected="Python.DOCKERY-Lab06p04-CSC121">
     <configuration name="Conditionals and Control Flow" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,6 +106,69 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DOCKERY-LAB06p03-CSC121.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DOCKERY-Lab06p01-CSC121" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DOCKERY-Lab06p01-CSC121.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DOCKERY-Lab06p02-CSC121" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DOCKERY-Lab06p02-CSC121.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DOCKERY-Lab06p04-CSC121" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DOCKERY-Lab06p04-CSC121.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +219,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Integers in a tuple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Jones" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,74 +227,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Integers in a tuple.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="List comprehension" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/List comprehension.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Nested-Lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Nested-Lists.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Variables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Variables" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Jones.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.List comprehension" />
-        <item itemvalue="Python.Variables" />
+        <item itemvalue="Python.DOCKERY-Lab06p04-CSC121" />
         <item itemvalue="Python.DOCKERY-LAB06p03-CSC121" />
-        <item itemvalue="Python.Integers in a tuple" />
-        <item itemvalue="Python.Nested-Lists" />
+        <item itemvalue="Python.DOCKERY-Lab06p02-CSC121" />
+        <item itemvalue="Python.DOCKERY-Lab06p01-CSC121" />
+        <item itemvalue="Python.Jones" />
       </list>
     </recent_temporary>
   </component>
@@ -259,13 +261,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587506296706</updated>
-    </task>
-    <task id="LOCAL-00012" summary="I am revisiting earlier projects and integrating new knowledge into earlier projects. Old versions should still be available through github versioning">
-      <created>1587833159326</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1587833159326</updated>
     </task>
     <task id="LOCAL-00013" summary="I am revisiting earlier projects and integrating new knowledge into earlier projects. Old versions should still be available through github versioning">
       <created>1587840165115</created>
@@ -603,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590286337966</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Exercises in creating lists">
+      <created>1590295658976</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1590295658977</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -647,34 +649,34 @@
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state x="405" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.723@0.23.1280.723" timestamp="1587577033352" />
-    <state width="1239" height="164" key="GridCell.Tab.0.bottom" timestamp="1590295215423">
+    <state width="1239" height="332" key="GridCell.Tab.0.bottom" timestamp="1590508637863">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="164" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1590295215423" />
+    <state width="1239" height="332" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1590508637863" />
     <state width="1239" height="164" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1590258645762" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1587572824625" />
     <state width="1239" height="164" key="GridCell.Tab.0.bottom/0.23.1280.732@0.23.1280.732" timestamp="1590009720815" />
-    <state width="1239" height="164" key="GridCell.Tab.0.center" timestamp="1590295215422">
+    <state width="1239" height="332" key="GridCell.Tab.0.center" timestamp="1590508637863">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="164" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1590295215422" />
+    <state width="1239" height="332" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1590508637863" />
     <state width="1239" height="164" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1590258645761" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
     <state width="1239" height="164" key="GridCell.Tab.0.center/0.23.1280.732@0.23.1280.732" timestamp="1590009720814" />
-    <state width="1239" height="164" key="GridCell.Tab.0.left" timestamp="1590295215422">
+    <state width="1239" height="332" key="GridCell.Tab.0.left" timestamp="1590508637862">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="164" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1590295215422" />
+    <state width="1239" height="332" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1590508637862" />
     <state width="1239" height="164" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1590258645760" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1587572824623" />
     <state width="1239" height="164" key="GridCell.Tab.0.left/0.23.1280.732@0.23.1280.732" timestamp="1590009720814" />
-    <state width="1239" height="164" key="GridCell.Tab.0.right" timestamp="1590295215423">
+    <state width="1239" height="332" key="GridCell.Tab.0.right" timestamp="1590508637863">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="164" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1590295215423" />
+    <state width="1239" height="332" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1590508637863" />
     <state width="1239" height="164" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1590258645761" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
@@ -712,10 +714,10 @@
     </state>
     <state x="275" y="23" width="982" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1590203465819" />
     <state x="157" y="23" key="SettingsEditor/0.23.1280.723@0.23.1280.723" timestamp="1587577435749" />
-    <state x="250" y="110" key="Vcs.Push.Dialog.v2" timestamp="1590281491236">
+    <state x="250" y="110" key="Vcs.Push.Dialog.v2" timestamp="1590295668904">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.710@0.23.1280.710" timestamp="1590281491236" />
+    <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.710@0.23.1280.710" timestamp="1590295668904" />
     <state x="433" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589858703430">
       <screen x="0" y="23" width="1280" height="710" />
     </state>

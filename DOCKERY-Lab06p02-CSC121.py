@@ -43,7 +43,7 @@ All scores: [[77.0, 74.0, 75.0, 72.0], [81.0, 77.0, 80.0, 79.0], [69.0, 74.0, 72
 All scores after extra point: [[78.0, 75.0, 76.0, 73.0], [82.0, 78.0, 81.0, 80.0], [70.0, 75.0, 73.0, 71.0]]
 All scores after sorting: [[73.0, 75.0, 76.0, 78.0], [78.0, 80.0, 81.0, 82.0], [70.0, 71.0, 73.0, 75.0]]
 """
-j_list = []
+j_list = []  #set some empty lists to start
 k_list = []
 c_list = []
 all_scores =[]

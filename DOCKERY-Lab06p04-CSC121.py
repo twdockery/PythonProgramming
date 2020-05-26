@@ -54,7 +54,7 @@ print(f"Part a: {newlist}")
 newlist = []
 for x in range(2):
     newlist = [x + (x - 1) for x in list1]
-  # newlist = [3 ** x for x in list 2] just in case
+  # newlist = [3 ** x for x in list 2] just in case I had read this wrong
 print(f"Part b: {newlist[0:2]}")
 # print("b: [3, 9]") Debug area
 
