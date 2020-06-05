@@ -31,7 +31,7 @@ Please pay this amount: 130.00
 """
 def main():
     print("Self Service for Business and Residential customers")
-    power,customer_type=get_user_input() #to get the variables required, we must use the dual-returning function
+    power,customer_type = get_user_input() #to get the variables required, we must use the dual-returning function
     #print(f"You used {power} hours as a {customer_type} customer.") #debug for input (works!)
     print(f"Please pay this amount: ${bill_calculator(power,customer_type):.2f}")
 

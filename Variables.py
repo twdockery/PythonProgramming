@@ -42,10 +42,10 @@ def main():
         print("Invalid Choice.")
         foreign_currency = input("Please choose a foreign currency: [E]uro, Japanese [Y]en or Mexican [P]eso: ")
 
-    exchange = input("How much would you like to exchange? ")
+    exchange = float(input("How much would you like to exchange? "))
     while exchange < 0:
         print("US Dollar amount cannot be negative.")
-        exchange = input("How much would you like to exchange? ")
+        exchange = float(input("How much would you like to exchange? "))
 
     if foreign_currency.lower() == "e":
         print(f"It is converted to {currency.to_euro(exchange)} Euros")
