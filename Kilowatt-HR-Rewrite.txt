@@ -23,8 +23,6 @@ Please pay this amount: $61.50
 def main():
     print(f"Please pay this amount: ${bill_calculator(get_kwh_used()):.2f}")
 
-"""
-# this was my first attempt. Failure. Thank you Man Chi Leung
 def get_kwh_used():
     # kwh = 0    #failed debug
     kwh = float(input("Enter number of kWh used: "))
@@ -33,13 +31,6 @@ def get_kwh_used():
     else:
         print("kWh cannot be negative.")
         get_kwh_used()
-"""
-def get_kwh_used():
-    kwh = float(input("Enter number of kWh used: "))
-    if kwh < 0:
-        print("kWh cannot be negative.")
-        kwh = get_kwh_used()
-    return kwh
 
 def bill_calculator(hrs):
     if float(hrs) <= 500:

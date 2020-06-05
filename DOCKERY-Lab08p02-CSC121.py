@@ -17,6 +17,7 @@ Return kWh used and customer type.
 • A bill_calculator function: This function has two parameters to receive number of kWh used and customer type.
 Calculate and return the energy charge.
 
+EXAMPLE
 Enter kilowatt hours used: 810
 Enter R for residential customer, B for business customer: R
 Please pay this amount: 106.50
@@ -29,23 +30,38 @@ Please pay this amount: 130.00
 
 """
 def main():
-    print("Welcome to the power company!")
-    kwh = float(input("How many kWh have you used? "))
-    customer = input("Enter R for residential customer, B for business customer: ")
-    bill_calculator(power=kwh, type=customer)
+    print("Self Service for Business and Residential customers")
+    power,customer_type=get_user_input() #to get the variables required, we must use the dual-returning function
+    #print(f"You used {power} hours as a {customer_type} customer.") #debug for input (works!)
+    print(f"Please pay this amount: ${bill_calculator(power,customer_type):.2f}")
 
-def bill_calculator(power, type):
-    if type.lower() == "b":
+def get_user_input():
+
+    kwh = float(input("Enter number of kWh used: "))
+    #while Loop until positive
+    while kwh < 0:
+        print("kWh cannot be negative.")
+        kwh = float(input("Enter number of kWh used: "))
+
+    customer_type = input("Enter R for residential customer, B for business customer: ")
+    #while Loop until r or b
+    while customer_type.upper() != "R" and customer_type.upper() != "B":
+        print("This is only for [R]esidential and [B]usiness customers.")
+        customer_type = input("Enter R for residential customer, B for business customer: ")
+    return kwh, customer_type
+
+def bill_calculator(power, customer_type):
+    if customer_type.lower() == "B":
         if power > 800:
-            charge = ((power - 800) * 0.20) + (800 * 0.16)  # 0.12 for first 500. 0.15 for others
+            charge = ((power - 800) * 0.20) + (800 * 0.16)  # 0.16 for first 800. 0.20 for others
         else:
             charge = power * 0.16
-
-    if type.lower() == "r":
+    else:  #must be a residential customer
         if power > 500:
             charge = ((power - 500) * 0.15) + (500 * 0.12) #0.12 for first 500. 0.15 for others
         else:
             charge = power * 0.12
-    print(f"Please pay this amount: ${charge:.2f}")
+    return charge
+
 
 main()

@@ -1,3 +1,4 @@
+#Tyler Dockery for CSC121  5-31-2020 twdockery@waketech.edu
 """
 In Lab 07 we wrote a program to calculate energy bill for households.
 A power company charges customers $0.12 per kWh for the first 500 kWh.
@@ -21,24 +22,24 @@ Enter kilowatt hours used: 510
 Please pay this amount: $61.50
 """
 def main():
-    print(f"Please pay this amount: ${bill_calculator(get_kwh_used()):.2f}")
+    print(f"Please pay this amount: ${bill_calculator(get_kWh_used()):.2f}")
 
 """
-# this was my first attempt. Failure. Thank you Man Chi Leung
-def get_kwh_used():
+# this was my first attempt. Failure. Thank you Man Chi Leung for assistance
+def get_kWh_used():
     # kwh = 0    #failed debug
     kwh = float(input("Enter number of kWh used: "))
     if kwh >= 0:
         return kwh
     else:
         print("kWh cannot be negative.")
-        get_kwh_used()
+        get_kwh_used() # this reset the function, but result was a str?
 """
-def get_kwh_used():
+def get_kWh_used():
     kwh = float(input("Enter number of kWh used: "))
     if kwh < 0:
         print("kWh cannot be negative.")
-        kwh = get_kwh_used()
+        kwh = get_kWh_used()  # resets the function, kwh is int
     return kwh
 
 def bill_calculator(hrs):
