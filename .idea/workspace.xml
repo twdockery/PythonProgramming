@@ -22,17 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="exercises in Functions">
-      <change afterPath="$PROJECT_DIR$/DOCKERY-Lab08p01-CSC121.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOCKERY-Lab08p02-CSC121.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kilowatt-HR-Rewrite Part2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kilowatt-HR-Rewrite.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/currency.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/variable2.py" afterDir="false" />
+    <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="Updated functions and the creation of modules in Python">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCKERY-Lab07p03-CSC121.py" beforeDir="false" afterPath="$PROJECT_DIR$/DOCKERY-Lab07p03-CSC121.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kilowatt-HR-Rewrite.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kilowatt-HR-Rewrite.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Variables" beforeDir="false" afterPath="$PROJECT_DIR$/Variables" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/currency.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/currency.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +68,7 @@
       <recent name="$PROJECT_DIR$/../../CSC121-Python-Programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Kilowatt-HR-Rewrite Part2">
+  <component name="RunManager" selected="Python.Variables">
     <configuration name="Conditionals and Control Flow" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,8 +239,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Kilowatt-HR-Rewrite Part2" />
         <item itemvalue="Python.Variables" />
+        <item itemvalue="Python.Kilowatt-HR-Rewrite Part2" />
         <item itemvalue="Python.DOCKERY-Lab08p01-CSC121" />
         <item itemvalue="Python.variable2" />
         <item itemvalue="Python.Kilowatt-HR-Rewrite" />
@@ -265,13 +258,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587506296706</updated>
-    </task>
-    <task id="LOCAL-00015" summary="I am revisiting earlier projects and integrating new knowledge into earlier projects. Old versions should still be available through github versioning">
-      <created>1587843331484</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1587843331484</updated>
     </task>
     <task id="LOCAL-00016" summary="Learning about functions">
       <created>1587844209249</created>
@@ -609,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590936037721</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Updated functions and the creation of modules in Python">
+      <created>1591380186401</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1591380186401</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -643,7 +636,8 @@
     <MESSAGE value="Exercises in creating lists" />
     <MESSAGE value="exercises in creating lists" />
     <MESSAGE value="exercises in Functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercises in Functions" />
+    <MESSAGE value="Updated functions and the creation of modules in Python" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated functions and the creation of modules in Python" />
   </component>
   <component name="WindowStateProjectService">
     <state x="379" y="184" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589852777215">
@@ -659,34 +653,34 @@
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state x="405" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.723@0.23.1280.723" timestamp="1587577033352" />
-    <state width="1239" height="134" key="GridCell.Tab.0.bottom" timestamp="1591378760148">
-      <screen x="0" y="23" width="1280" height="713" />
+    <state width="1239" height="134" key="GridCell.Tab.0.bottom" timestamp="1591383096384">
+      <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="134" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1591358286223" />
+    <state width="1239" height="134" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1591383096384" />
     <state width="1239" height="134" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1591378760148" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1587572824625" />
     <state width="1239" height="164" key="GridCell.Tab.0.bottom/0.23.1280.732@0.23.1280.732" timestamp="1590009720815" />
-    <state width="1239" height="134" key="GridCell.Tab.0.center" timestamp="1591378760147">
-      <screen x="0" y="23" width="1280" height="713" />
+    <state width="1239" height="134" key="GridCell.Tab.0.center" timestamp="1591383096381">
+      <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="134" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1591358286222" />
+    <state width="1239" height="134" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1591383096381" />
     <state width="1239" height="134" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1591378760147" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
     <state width="1239" height="164" key="GridCell.Tab.0.center/0.23.1280.732@0.23.1280.732" timestamp="1590009720814" />
-    <state width="1239" height="134" key="GridCell.Tab.0.left" timestamp="1591378760147">
-      <screen x="0" y="23" width="1280" height="713" />
+    <state width="1239" height="134" key="GridCell.Tab.0.left" timestamp="1591383096381">
+      <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="134" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1591358286222" />
+    <state width="1239" height="134" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1591383096381" />
     <state width="1239" height="134" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1591378760147" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1587572824623" />
     <state width="1239" height="164" key="GridCell.Tab.0.left/0.23.1280.732@0.23.1280.732" timestamp="1590009720814" />
-    <state width="1239" height="134" key="GridCell.Tab.0.right" timestamp="1591378760148">
-      <screen x="0" y="23" width="1280" height="713" />
+    <state width="1239" height="134" key="GridCell.Tab.0.right" timestamp="1591383096382">
+      <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="134" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1591358286222" />
+    <state width="1239" height="134" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1591383096382" />
     <state width="1239" height="134" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1591378760148" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
@@ -724,10 +718,10 @@
     </state>
     <state x="275" y="23" width="982" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1590203465819" />
     <state x="157" y="23" key="SettingsEditor/0.23.1280.723@0.23.1280.723" timestamp="1587577435749" />
-    <state x="250" y="110" key="Vcs.Push.Dialog.v2" timestamp="1590936045427">
-      <screen x="0" y="23" width="1280" height="713" />
+    <state x="250" y="110" key="Vcs.Push.Dialog.v2" timestamp="1591380188067">
+      <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.710@0.23.1280.710" timestamp="1590508936615" />
+    <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.710@0.23.1280.710" timestamp="1591380188067" />
     <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.713@0.23.1280.713" timestamp="1590936045427" />
     <state x="433" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589858703430">
       <screen x="0" y="23" width="1280" height="710" />

@@ -32,3 +32,27 @@ Error: US Dollar cannot be negative.
 Enter US Dollar: 100
 It is converted to 10645.0 Yen
 """
+
+import currency
+#this imports currency.py module
+
+def main():
+    print("Welcome to the foreigh currency exchange!")
+    currency = input("Please choose a foreign currency: [E]uro, Japanese [Y]en or Mexican [P]eso: ")
+    while currency.lower() != "e" and currency.lower() != "y" and currency.lower() != "p":
+        print("Invalid Choice.")
+        currency = input("Please choose a foreign currency: [E]uro, Japanese [Y]en or Mexican [P]eso: ")
+
+    exchange = input("How much would you like to exchange? ")
+    while exchange < 0:
+        print("US Dollar amount cannot be negative.")
+        exchange = input("How much would you like to exchange? ")
+
+    if currency.lower() == "e":
+        print(f"It is converted to {currency.to_euro(exchange)} Euros")
+    elif currency.lower() == "y":
+        print(f"It is converted to {currency.to_yen(exchange)} Yen")
+    else: #if not Euros or Yen, it must be Pesos
+        print(f"It is converted to {currency.to_peso(exchange)} Pesos")
+
+main()

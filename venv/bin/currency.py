@@ -7,7 +7,7 @@ to_yen(dollar): This function receives US Dollar as an argument and converts it 
 to_peso(dollar): This function receives US Dollar as an argument and converts it to Mexican Peso.  1 US Dollar = 18.58 Peso.  Return Peso.
 Store these three functions in a file named currency.py.
 """
-# This module is used to calculate the exchance of US to foreign currency.
+# This module is used to calculate the exchange of US to foreign currency.
 
 def to_euro(dollar):
     euro = dollar * 0.81
