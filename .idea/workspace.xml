@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="First Major Project (main.py and student.py) including 2 custom modules and 5 functions.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,13 +280,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587506296706</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Trying to deal with functions effectively">
-      <created>1587938859904</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1587938859904</updated>
     </task>
     <task id="LOCAL-00023" summary="Trying to deal with functions effectively">
       <created>1587939294920</created>
@@ -622,7 +617,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591633913407</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="First Major Project (main.py and student.py) including 2 custom modules and 5 functions.">
+      <created>1591634034890</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1591634034890</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -661,10 +663,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="First Major Project (main.py and student.py) including 2 custom modules and 5 functions." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="379" y="184" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589852777215">
+    <state x="379" y="184" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591634266315">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state x="379" y="184" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.710@0.23.1280.710" timestamp="1589852777215" />
+    <state x="379" y="184" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.710@0.23.1280.710" timestamp="1591634266315" />
     <state x="379" y="187" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.724@0.23.1280.724" timestamp="1587508174642" />
     <state x="318" y="131" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591375999313">
       <screen x="0" y="23" width="1280" height="713" />
@@ -739,10 +741,10 @@
     </state>
     <state x="275" y="23" width="982" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1590203465819" />
     <state x="157" y="23" key="SettingsEditor/0.23.1280.723@0.23.1280.723" timestamp="1587577435749" />
-    <state x="250" y="110" key="Vcs.Push.Dialog.v2" timestamp="1591390274932">
+    <state x="250" y="110" key="Vcs.Push.Dialog.v2" timestamp="1591634040740">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.710@0.23.1280.710" timestamp="1591390274932" />
+    <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.710@0.23.1280.710" timestamp="1591634040740" />
     <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.713@0.23.1280.713" timestamp="1590936045427" />
     <state x="433" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589858703430">
       <screen x="0" y="23" width="1280" height="710" />
