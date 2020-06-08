@@ -1,36 +1,21 @@
-test = run = charge = fire = 0
-print(test, run, charge, fire)
-#################
-# just a test to figure out about functions
-#################
-from random import randrange #this allows us to create random numbers
-start = 200 # player starts with 200
-currentCash = 200  # Test amount
+student_list = [('1001', '111'), ('1002', '222'), ('1003', '333'), ('1004', '444')]
+course_list = ['CSC101', 'CSC102', 'CSC103']
+max_size_list = [3, 2, 1]
+roster_list = [['1004', '1003'], ['1001'], ['1002']]
 
-def message():
-    """
-    This is to grab a message from an exterior file, or choice at random
-    """
-    #secret = (int(randrange(1)) + 1) # Find a way to return many messages
-    weekendMessage = "You went scuba diving in La Jolla" # only one now
-    return weekendMessage
+def add_course():
+    add = input("Add which course: ")
+    if add.upper not in course_list:
+        print("Course not available.")
+    else:
+        print("course is available")
 
 
-def daily(currentCash):
-    secret = (int(randrange(60)) + 1) # how much money you spent this weekend
 
-    if secret > currentCash:  # you can't take what you don't have
-        secret = currentCash
-    currentCash -= (secret) # the secret number is removed from cash
-    return secret
-
-##############################################
-# Turn Mechanics
-##############################################
-
-# initial message
-print(message())
-print("This turn you spent %s." % (daily(currentCash)))
-
-# food message
-Food()
+choice = 1
+while choice != "0":
+    choice = input("Enter 1 to add course, 2 to drop course, 3 to list courses, 0 to exit: ")
+    if choice == "1":
+        add_course()
+    else:
+        print(choice)

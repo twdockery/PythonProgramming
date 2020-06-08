@@ -23,7 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="Updated functions and the creation of modules in Python">
+      <change afterPath="$PROJECT_DIR$/Project1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/Variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +72,7 @@
       <recent name="$PROJECT_DIR$/../../CSC121-Python-Programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DOCKERY-Lab08p03-CSC121">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Conditionals and Control Flow" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,48 +86,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Conditionals and Control Flow.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DOCKERY-Lab08p01-CSC121" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DOCKERY-Lab08p01-CSC121.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DOCKERY-Lab08p02-CSC121" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DOCKERY-Lab08p02-CSC121.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Kilowatt-HR-Rewrite Part2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Project1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,7 +169,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kilowatt-HR-Rewrite Part2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,13 +220,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.DOCKERY-Lab08p03-CSC121" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.Variables (1)" />
-        <item itemvalue="Python.DOCKERY-Lab08p02-CSC121" />
-        <item itemvalue="Python.DOCKERY-Lab08p01-CSC121" />
-        <item itemvalue="Python.Kilowatt-HR-Rewrite Part2" />
+        <item itemvalue="Python.Project1" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.DOCKERY-Lab08p03-CSC121" />
       </list>
     </recent_temporary>
   </component>
@@ -278,13 +283,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587506296706</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Learning about functions">
-      <created>1587921730281</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1587921730281</updated>
     </task>
     <task id="LOCAL-00021" summary="Trying to deal with functions effectively">
       <created>1587937500502</created>
@@ -622,7 +620,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591385530516</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Updated functions and the creation of modules in Python">
+      <created>1591390267057</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1591390267057</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -673,61 +678,61 @@
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state x="405" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.723@0.23.1280.723" timestamp="1587577033352" />
-    <state width="1239" height="134" key="GridCell.Tab.0.bottom" timestamp="1591385289606">
+    <state width="1239" height="254" key="GridCell.Tab.0.bottom" timestamp="1591592386370">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="134" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1591385289606" />
-    <state width="1239" height="134" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1591378760148" />
+    <state width="1239" height="254" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1591592386370" />
+    <state width="1239" height="134" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1591554874831" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1587572824625" />
     <state width="1239" height="164" key="GridCell.Tab.0.bottom/0.23.1280.732@0.23.1280.732" timestamp="1590009720815" />
-    <state width="1239" height="134" key="GridCell.Tab.0.center" timestamp="1591385289606">
+    <state width="1239" height="254" key="GridCell.Tab.0.center" timestamp="1591592386369">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="134" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1591385289606" />
-    <state width="1239" height="134" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1591378760147" />
+    <state width="1239" height="254" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1591592386369" />
+    <state width="1239" height="134" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1591554874829" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
     <state width="1239" height="164" key="GridCell.Tab.0.center/0.23.1280.732@0.23.1280.732" timestamp="1590009720814" />
-    <state width="1239" height="134" key="GridCell.Tab.0.left" timestamp="1591385289605">
+    <state width="1239" height="254" key="GridCell.Tab.0.left" timestamp="1591592386369">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="134" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1591385289605" />
-    <state width="1239" height="134" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1591378760147" />
+    <state width="1239" height="254" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1591592386369" />
+    <state width="1239" height="134" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1591554874829" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1587652956725" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1587572824623" />
     <state width="1239" height="164" key="GridCell.Tab.0.left/0.23.1280.732@0.23.1280.732" timestamp="1590009720814" />
-    <state width="1239" height="134" key="GridCell.Tab.0.right" timestamp="1591385289606">
+    <state width="1239" height="254" key="GridCell.Tab.0.right" timestamp="1591592386370">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state width="1239" height="134" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1591385289606" />
-    <state width="1239" height="134" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1591378760148" />
+    <state width="1239" height="254" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1591592386370" />
+    <state width="1239" height="134" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1591554874830" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1587652956726" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
     <state width="1239" height="164" key="GridCell.Tab.0.right/0.23.1280.732@0.23.1280.732" timestamp="1590009720814" />
-    <state width="1239" height="210" key="GridCell.Tab.1.bottom" timestamp="1590537878074">
-      <screen x="0" y="23" width="1280" height="710" />
+    <state width="1239" height="210" key="GridCell.Tab.1.bottom" timestamp="1591536032093">
+      <screen x="0" y="23" width="1280" height="713" />
     </state>
     <state width="1239" height="210" key="GridCell.Tab.1.bottom/0.23.1280.710@0.23.1280.710" timestamp="1590537878074" />
-    <state width="1239" height="210" key="GridCell.Tab.1.bottom/0.23.1280.713@0.23.1280.713" timestamp="1587825621173" />
+    <state width="1239" height="210" key="GridCell.Tab.1.bottom/0.23.1280.713@0.23.1280.713" timestamp="1591536032093" />
     <state width="1239" height="210" key="GridCell.Tab.1.bottom/0.23.1280.721@0.23.1280.721" timestamp="1587652886413" />
-    <state width="1239" height="210" key="GridCell.Tab.1.center" timestamp="1590537878074">
-      <screen x="0" y="23" width="1280" height="710" />
+    <state width="1239" height="210" key="GridCell.Tab.1.center" timestamp="1591536032092">
+      <screen x="0" y="23" width="1280" height="713" />
     </state>
     <state width="1239" height="210" key="GridCell.Tab.1.center/0.23.1280.710@0.23.1280.710" timestamp="1590537878074" />
-    <state width="1239" height="210" key="GridCell.Tab.1.center/0.23.1280.713@0.23.1280.713" timestamp="1587825621173" />
+    <state width="1239" height="210" key="GridCell.Tab.1.center/0.23.1280.713@0.23.1280.713" timestamp="1591536032092" />
     <state width="1239" height="210" key="GridCell.Tab.1.center/0.23.1280.721@0.23.1280.721" timestamp="1587652886411" />
-    <state width="1239" height="210" key="GridCell.Tab.1.left" timestamp="1590537878073">
-      <screen x="0" y="23" width="1280" height="710" />
+    <state width="1239" height="210" key="GridCell.Tab.1.left" timestamp="1591536032092">
+      <screen x="0" y="23" width="1280" height="713" />
     </state>
     <state width="1239" height="210" key="GridCell.Tab.1.left/0.23.1280.710@0.23.1280.710" timestamp="1590537878073" />
-    <state width="1239" height="210" key="GridCell.Tab.1.left/0.23.1280.713@0.23.1280.713" timestamp="1587825621172" />
+    <state width="1239" height="210" key="GridCell.Tab.1.left/0.23.1280.713@0.23.1280.713" timestamp="1591536032092" />
     <state width="1239" height="210" key="GridCell.Tab.1.left/0.23.1280.721@0.23.1280.721" timestamp="1587652886411" />
-    <state width="1239" height="210" key="GridCell.Tab.1.right" timestamp="1590537878074">
-      <screen x="0" y="23" width="1280" height="710" />
+    <state width="1239" height="210" key="GridCell.Tab.1.right" timestamp="1591536032093">
+      <screen x="0" y="23" width="1280" height="713" />
     </state>
     <state width="1239" height="210" key="GridCell.Tab.1.right/0.23.1280.710@0.23.1280.710" timestamp="1590537878074" />
-    <state width="1239" height="210" key="GridCell.Tab.1.right/0.23.1280.713@0.23.1280.713" timestamp="1587825621173" />
+    <state width="1239" height="210" key="GridCell.Tab.1.right/0.23.1280.713@0.23.1280.713" timestamp="1591536032093" />
     <state width="1239" height="210" key="GridCell.Tab.1.right/0.23.1280.721@0.23.1280.721" timestamp="1587652886412" />
     <state x="404" y="94" key="RollbackChangesDialog" timestamp="1587775139369">
       <screen x="0" y="23" width="1280" height="710" />
@@ -738,19 +743,20 @@
     </state>
     <state x="275" y="23" width="982" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1590203465819" />
     <state x="157" y="23" key="SettingsEditor/0.23.1280.723@0.23.1280.723" timestamp="1587577435749" />
-    <state x="250" y="110" key="Vcs.Push.Dialog.v2" timestamp="1591380188067">
+    <state x="250" y="110" key="Vcs.Push.Dialog.v2" timestamp="1591390274932">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
-    <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.710@0.23.1280.710" timestamp="1591380188067" />
+    <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.710@0.23.1280.710" timestamp="1591390274932" />
     <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.713@0.23.1280.713" timestamp="1590936045427" />
     <state x="433" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589858703430">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
     <state x="433" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.710@0.23.1280.710" timestamp="1589858703430" />
     <state x="433" y="299" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.724@0.23.1280.724" timestamp="1587514392590" />
-    <state x="308" y="57" width="670" height="158" key="search.everywhere.popup" timestamp="1591380118157">
-      <screen x="0" y="23" width="1280" height="710" />
+    <state x="308" y="57" width="670" height="159" key="search.everywhere.popup" timestamp="1591554023490">
+      <screen x="0" y="23" width="1280" height="713" />
     </state>
     <state x="308" y="57" width="670" height="158" key="search.everywhere.popup/0.23.1280.710@0.23.1280.710" timestamp="1591380118157" />
+    <state x="308" y="57" width="670" height="159" key="search.everywhere.popup/0.23.1280.713@0.23.1280.713" timestamp="1591554023490" />
   </component>
 </project>
