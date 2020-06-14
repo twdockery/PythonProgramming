@@ -95,7 +95,7 @@ print(list6)
 # Part f :Use list comprehension to select numbers that are larger than 30 from list5. Display the new list.
 ######################
 comprehension = [x for x in list5 if x > 30]
-print(comprehension)
+print("Elements in list5 larger than 30: ",comprehension)
 
 ######################
 # Part g : Use nested list comprehension to create a list of two lists.  Both lists have 5 elements.
@@ -104,4 +104,4 @@ print(comprehension)
 #For example,  if list6 is [5, 6, 7, 8, 9], the list of lists will be [[10, 12, 14, 16, 18], [15, 18, 21. 24, 27]].
 ######################
 list_of_lists = [x * 2 for x in list6],[x *3 for x in list6]
-print(list_of_lists)
+print("List of lists: ",list_of_lists)
