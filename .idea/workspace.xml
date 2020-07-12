@@ -23,13 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcdea693-36a7-4b1f-a492-54468ba50f8a" name="Default Changelist" comment="Post Midterm, Dealing with sets and dictionaries">
-      <change afterPath="$PROJECT_DIR$/Carnival-Food-Calculator-pt2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DOCKERY-lab11p3-CSC121.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/working-with-dictionaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSC121-Lab12.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSC121-Lesson12.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DOCKERY-Lab11p2-CSC121.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab12P1P2Helper.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab12P3P4Helper.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Carnival-Food-Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Carnival-Food-Calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOCKERY-lab11p1-CSC121.py" beforeDir="false" afterPath="$PROJECT_DIR$/DOCKERY-lab11p1-CSC121.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/working-with-dictionaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/working-with-dictionaries.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,7 @@
       <recent name="$PROJECT_DIR$/../../CSC121-Python-Programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Carnival-Food-Calculator-pt2">
+  <component name="RunManager" selected="Python.working-with-dictionaries">
     <configuration name="Carnival-Food-Calculator-pt2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,9 +269,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Carnival-Food-Calculator-pt2" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.working-with-dictionaries" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Carnival-Food-Calculator-pt2" />
         <item itemvalue="Python.Working-With-Sets" />
         <item itemvalue="Python.Count-Strings" />
       </list>
@@ -287,13 +288,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587506296706</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Updating list and dictionaries">
-      <created>1588127651206</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1588127651206</updated>
     </task>
     <task id="LOCAL-00027" summary="Updating list and dictionaries">
       <created>1588461296313</created>
@@ -631,7 +625,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594336037297</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Post Midterm, Dealing with sets and dictionaries">
+      <created>1594347109041</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1594347109041</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -685,49 +686,53 @@
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state x="405" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.723@0.23.1280.723" timestamp="1587577033352" />
-    <state width="1157" height="240" key="GridCell.Tab.0.bottom" timestamp="1594347009511">
-      <screen x="0" y="23" width="1280" height="721" />
+    <state width="1157" height="240" key="GridCell.Tab.0.bottom" timestamp="1594571114763">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state width="1152" height="282" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1592154363510" />
     <state width="1239" height="134" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1591554874831" />
     <state width="795" height="282" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1594092734465" />
-    <state width="930" height="240" key="GridCell.Tab.0.bottom/0.23.1280.716@0.23.1280.716" timestamp="1594339563245" />
+    <state width="1157" height="240" key="GridCell.Tab.0.bottom/0.23.1280.716@0.23.1280.716" timestamp="1594350987387" />
     <state width="1157" height="240" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1594347009511" />
     <state width="930" height="240" key="GridCell.Tab.0.bottom/0.23.1280.723@0.23.1280.723" timestamp="1594340121413" />
     <state width="1239" height="168" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1587572824625" />
+    <state width="1157" height="240" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1594571114763" />
     <state width="1239" height="164" key="GridCell.Tab.0.bottom/0.23.1280.732@0.23.1280.732" timestamp="1590009720815" />
-    <state width="1157" height="240" key="GridCell.Tab.0.center" timestamp="1594347009510">
-      <screen x="0" y="23" width="1280" height="721" />
+    <state width="1157" height="240" key="GridCell.Tab.0.center" timestamp="1594571114762">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state width="1152" height="282" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1592154363509" />
     <state width="1239" height="134" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1591554874829" />
     <state width="795" height="282" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1594092734464" />
-    <state width="930" height="240" key="GridCell.Tab.0.center/0.23.1280.716@0.23.1280.716" timestamp="1594339563244" />
+    <state width="1157" height="240" key="GridCell.Tab.0.center/0.23.1280.716@0.23.1280.716" timestamp="1594350987387" />
     <state width="1157" height="240" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1594347009510" />
     <state width="930" height="240" key="GridCell.Tab.0.center/0.23.1280.723@0.23.1280.723" timestamp="1594340121413" />
     <state width="1239" height="168" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
+    <state width="1157" height="240" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1594571114762" />
     <state width="1239" height="164" key="GridCell.Tab.0.center/0.23.1280.732@0.23.1280.732" timestamp="1590009720814" />
-    <state width="1157" height="240" key="GridCell.Tab.0.left" timestamp="1594347009510">
-      <screen x="0" y="23" width="1280" height="721" />
+    <state width="1157" height="240" key="GridCell.Tab.0.left" timestamp="1594571114762">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state width="1152" height="282" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1592154363509" />
     <state width="1239" height="134" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1591554874829" />
     <state width="795" height="282" key="GridCell.Tab.0.left/0.23.1280.715@0.23.1280.715" timestamp="1594092734464" />
-    <state width="930" height="240" key="GridCell.Tab.0.left/0.23.1280.716@0.23.1280.716" timestamp="1594339563244" />
+    <state width="1157" height="240" key="GridCell.Tab.0.left/0.23.1280.716@0.23.1280.716" timestamp="1594350987386" />
     <state width="1157" height="240" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1594347009510" />
     <state width="930" height="240" key="GridCell.Tab.0.left/0.23.1280.723@0.23.1280.723" timestamp="1594340121412" />
     <state width="1239" height="168" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1587572824623" />
+    <state width="1157" height="240" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1594571114762" />
     <state width="1239" height="164" key="GridCell.Tab.0.left/0.23.1280.732@0.23.1280.732" timestamp="1590009720814" />
-    <state width="1157" height="240" key="GridCell.Tab.0.right" timestamp="1594347009511">
-      <screen x="0" y="23" width="1280" height="721" />
+    <state width="1157" height="240" key="GridCell.Tab.0.right" timestamp="1594571114762">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state width="1152" height="282" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1592154363510" />
     <state width="1239" height="134" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1591554874830" />
     <state width="795" height="282" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1594092734465" />
-    <state width="930" height="240" key="GridCell.Tab.0.right/0.23.1280.716@0.23.1280.716" timestamp="1594339563244" />
+    <state width="1157" height="240" key="GridCell.Tab.0.right/0.23.1280.716@0.23.1280.716" timestamp="1594350987387" />
     <state width="1157" height="240" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1594347009511" />
     <state width="930" height="240" key="GridCell.Tab.0.right/0.23.1280.723@0.23.1280.723" timestamp="1594340121413" />
     <state width="1239" height="168" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1587572824624" />
+    <state width="1157" height="240" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1594571114762" />
     <state width="1239" height="164" key="GridCell.Tab.0.right/0.23.1280.732@0.23.1280.732" timestamp="1590009720814" />
     <state width="795" height="210" key="GridCell.Tab.1.bottom" timestamp="1594327784842">
       <screen x="0" y="23" width="1280" height="721" />
@@ -766,11 +771,13 @@
     </state>
     <state x="275" y="23" width="982" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1590203465819" />
     <state x="157" y="23" key="SettingsEditor/0.23.1280.723@0.23.1280.723" timestamp="1587577435749" />
-    <state x="250" y="110" key="Vcs.Push.Dialog.v2" timestamp="1592154274119">
-      <screen x="0" y="23" width="1280" height="710" />
+    <state x="250" y="112" key="Vcs.Push.Dialog.v2" timestamp="1594571131707">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.710@0.23.1280.710" timestamp="1592154274119" />
     <state x="250" y="110" key="Vcs.Push.Dialog.v2/0.23.1280.713@0.23.1280.713" timestamp="1590936045427" />
+    <state x="250" y="111" key="Vcs.Push.Dialog.v2/0.23.1280.721@0.23.1280.721" timestamp="1594347112521" />
+    <state x="250" y="112" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1594571131707" />
     <state x="433" y="294" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589858703430">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
