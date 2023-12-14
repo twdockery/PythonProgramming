@@ -1,25 +1,20 @@
-from random import randint # this creates a random integer. For example: dice6 = randint(1,6) allows a random number from 1 to 6
+import os                       # this allows to check on the written file
+from random import randint      # this creates a random integer. 
 
+
+#------------------------------------------------------------------------------------#
+# Variable initial states
+#------------------------------------------------------------------------------------#
 
 story = 0                   # this is the first digit of the dictionary 
-alt = 3                     # this is the second digit of the dictionary
+alt = 4                     # this is the second digit of the dictionary
 
 
-roll = randint(1,10) - randint(1,6)
-if roll < 1:                # roll cannot be negative
-    roll = 0
-    alt += alt              # with zero, alt is added
-    if alt > 3:             # if already hit 3rd option, one is added and alt is reset
-        roll = 1
-        alt = 1
-else:
-    alt = 1                 # in roll > 0 , alt is reset
 
-turn = story + roll
-
-print (story)
-print (roll)
-print (turn)
+#------------------------------------------------------------------------------------#
+# This is the game dictionary. Each round, The key will be determined
+# The list in the value will then be cycled though until complete
+#------------------------------------------------------------------------------------#
 
 dict = {
 "1-1" : ["In your blood-hunger you destroy someone close to you. Kill a mortal Character. Create a mortal if none are available. Take the skill Bloodthirsty."], 
@@ -236,6 +231,72 @@ dict = {
 "71-2" : ["How were you unintentionally responsible for this killing? What minor benefit did you gain? Gain a Resource."], 
 "71-3" : ["Create a false Experience about an immortal Character, which helps you make peace with your memories of them."]
 } 
+
+
+#------------------------------------------------------------------------------------#
+# This is the function that starts the game
+#------------------------------------------------------------------------------------#
+
+def gameStart():
+    gameName = str(input("Let's begin with the name of your character: "))
+    charDescription = str(input("Give me 2-3 short sentences about them before they became a vampire (250 Characters or less): "))
+
+    # Ensure the description is 250 characters or less
+    while len(charDescription) > 250:
+        print("Needs to be shorter. Try again.")
+        charDescription = str(input("Give me 2-3 short sentences about them (250 Characters or less): "))
+
+    file_name = gameName + ".txt"
+
+    # Check if the file already exists
+    while os.path.exists(file_name):
+        rename_option = input(f"The file '{file_name}' already exists. Do you want to rename it? (yes/no): ")
+
+        if rename_option.lower() == 'yes':
+            new_name = input("Enter the new file name: ")
+            file_name = new_name + ".txt"
+        else:
+            # If 'no' is chosen, break out of the loop to overwrite the existing file
+            print("The previous file has been overwritten. Let's begin...")
+            break
+
+    # Write to the file
+    try:
+        with open(file_name, "w") as f:
+            f.write("This is the story of " + gameName + "\n\n" + charDescription)
+            # debug
+            # print(f"File '{file_name}' created successfully.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+
+
+
+#------------------------------------------------------------------------------------#
+# This is the MAIN FUNCTION of the game
+#------------------------------------------------------------------------------------#
+
+gameStart()
+
+
+"""
+roll = randint(1,10) - randint(1,6)
+if roll < 1:                # roll cannot be negative
+    roll = 0
+    alt += alt              # with zero, alt is added
+    if alt > 3:             # if already hit 3rd option, one is added and alt is reset
+        roll = 1
+        alt = 1
+else:
+    alt = 1                 # in roll > 0 , alt is reset
+
+turn = story + roll
+
+print (story)
+print (roll)
+print (turn)
+
 storyEntry = str(turn)+"-"+str(alt)
 print(storyEntry)
 print(dict[storyEntry])
+"""
