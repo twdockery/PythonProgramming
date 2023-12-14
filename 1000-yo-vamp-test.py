@@ -1,15 +1,33 @@
 import os                       # this allows to check on the written file
 from random import randint      # this creates a random integer. 
 
+# Clearing the Screen
+os.system('cls')
+
+
 
 #------------------------------------------------------------------------------------#
 # Variable initial states
 #------------------------------------------------------------------------------------#
 
-story = 0                   # this is the first digit of the dictionary 
-alt = 4                     # this is the second digit of the dictionary
+skillsList = ["skillj1","stuff"]    # These values are debug only at this time
+resourcesList = []
+marksList = []
+mortalsList = []
+immortalsList= []
+memory1List = []
+memory2List = []
+memory3List = []
+memory4List = []
+memory5List = []
+memory6List = []
 
+memoryTotal = 5  # This is the total number of memories available (initial is 5)
 
+story = 0                      # this is the first digit of the dictionary 
+alt = 4                        # this is the second digit of the dictionary. This ensures that the initial alt value is not 1,2,3, or 0
+
+initialContents = 0             # Sets the initial contents to zero for beginning 
 
 #------------------------------------------------------------------------------------#
 # This is the game dictionary. Each round, The key will be determined
@@ -232,6 +250,33 @@ dict = {
 "71-3" : ["Create a false Experience about an immortal Character, which helps you make peace with your memories of them."]
 } 
 
+""" #####################################################################
+    This is the most-used function for this game. 
+    It allows input to be collected with a maximum number of characters. 
+    A default is set if one is not given.
+    ##################################################################### """
+
+def ask_for_input(max_chars = 250):  
+    user_input = ""
+    while len(user_input) > max_chars or len(user_input) < 1:
+        print(f"Please describe (max {max_chars} characters)")
+        user_input = input()
+        characters_remaining = max_chars - len(user_input)
+        if characters_remaining < 0:
+            print(f"Your input exceeds the limit ({max_chars} characters)")
+            print(f"Please shorten your input and try again. Characters remaining: {characters_remaining}")
+            user_input = ""
+        if len(user_input) < 1:
+            print(f"Your input is missing. ({max_chars} characters)")
+            print(f"Please add to your input and try again. Characters remaining: {characters_remaining}")
+            user_input = ""
+        else:
+            """
+            This is just a test and it works. We'll need to replace this with an append to file and test that
+            print(f"Done. Characters remaining: {characters_remaining}")
+            """
+            return user_input
+
 
 #------------------------------------------------------------------------------------#
 # This is the function that starts the game
@@ -255,6 +300,7 @@ def gameStart():
         if rename_option.lower() == 'yes':
             new_name = input("Enter the new file name: ")
             file_name = new_name + ".txt"
+            gameName = new_name
         else:
             # If 'no' is chosen, break out of the loop to overwrite the existing file
             print("The previous file has been overwritten. Let's begin...")
@@ -263,11 +309,77 @@ def gameStart():
     # Write to the file
     try:
         with open(file_name, "w") as f:
-            f.write("This is the story of " + gameName + "\n\n" + charDescription)
+            f.write("This is the story of " + gameName + "\n\n" + charDescription + "\n\n")
+            f.close()
             # debug
             # print(f"File '{file_name}' created successfully.")
     except Exception as e:
         print(f"An error occurred: {e}")
+
+      
+
+    # Add the 3 initial mortals from your pre-vampire life
+    initialContents = 0
+    for initialContents in range(3):
+        addInfo = input("What is the name of a mortal key to your upbringing? ")
+        description = ask_for_input()
+        mortalsList.append(addInfo)
+        f = open(gameName + ".txt", "a") 
+        f.write("One person very dear to them was " + addInfo + "\n" + description + "\n\n")
+        f.close()
+
+# Add the 3 initial Skills from your pre-vampire life
+    initialContents = 0
+    for initialContents in range(3):
+        addInfo = input("What is a skill you possess? ")
+        description = ask_for_input(40)
+        skillsList.append(addInfo)
+        f = open(gameName + ".txt", "a") 
+        f.write("They knew the skill: " + addInfo + "\n" + description + "\n\n")
+        f.close()
+
+# Add the 3 initial Resources from your pre-vampire life
+    initialContents = 0
+    for initialContents in range(3):
+        addInfo = input("What is the name of a resource you had? ")
+        description = ask_for_input(40)
+        resourcesList.append(addInfo)
+        f = open(gameName + ".txt", "a") 
+        f.write("A resource they had was: " + addInfo + "\n" + description + "\n\n")
+        f.close()
+
+"""
+# Add the 3 initial experiences from your pre-vampire life. This will require a short name for each memory added to memories list and descriptions. Complicated
+    initialContents = 0
+    for initialContents in range(3):
+        addInfo = input("What is the name of a resource you had? ")
+        description = ask_for_input(40)
+        resourcesList.append(addInfo)
+        f = open(gameName + ".txt", "a") 
+        f.write("A resource they had was: " + addInfo + "\n" + description + "\n\n")
+        f.close()
+"""
+
+
+# Add the initial immortal who created you
+    addInfo = input("Who was the immortal that turned you? ")
+    description = ask_for_input()
+    mortalsList.append(addInfo)
+    f = open(gameName + ".txt", "a") 
+    f.write("The immortal that turned them was " + addInfo + "\n" + description + "\n\n")
+    f.close()
+
+# Add the mark identifying them as a vampire
+    addInfo = input("What mark distinguishes you as a vampire? ")
+    description = ask_for_input()
+    mortalsList.append(addInfo)
+    f = open(gameName + ".txt", "a") 
+    f.write("The mark that distinguishes them as a vampire: " + addInfo + "\n" + description + "\n\n")
+    f.close()
+
+
+
+
 
 
 
@@ -277,6 +389,7 @@ def gameStart():
 #------------------------------------------------------------------------------------#
 
 gameStart()
+print("Mortals: ",", " .join(mortalsList))
 
 
 """
