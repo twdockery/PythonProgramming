@@ -15,12 +15,16 @@ resourcesList = []
 marksList = []
 mortalsList = []
 immortalsList= []
-memory1List = []
-memory2List = []
-memory3List = []
-memory4List = []
-memory5List = []
-memory6List = []
+memoryList1 = ["My life before vampirism"] # First memory is always the player's life before vampirism
+memoryList2 = []
+memoryList3 = []
+memoryList4 = []
+memoryList5 = []
+memoryList6 = []
+diaryList1 = []
+diaryList2 = []
+diaryList3 = []
+diaryList4 = []
 
 memoryTotal = 5  # This is the total number of memories available (initial is 5)
 
@@ -283,6 +287,7 @@ def ask_for_input(max_chars = 250):
 #------------------------------------------------------------------------------------#
 
 def gameStart():
+    
     gameName = str(input("Let's begin with the name of your character: "))
     charDescription = str(input("Give me 2-3 short sentences about them before they became a vampire (250 Characters or less): "))
 
@@ -321,7 +326,7 @@ def gameStart():
     # Add the 3 initial mortals from your pre-vampire life
     initialContents = 0
     for initialContents in range(3):
-        addInfo = input("What is the name of a mortal key to your upbringing? ")
+        addInfo = input("What is the name of a mortal who was key to your upbringing? ")
         description = ask_for_input()
         mortalsList.append(addInfo)
         f = open(gameName + ".txt", "a") 
@@ -348,31 +353,47 @@ def gameStart():
         f.write("A resource they had was: " + addInfo + "\n" + description + "\n\n")
         f.close()
 
-"""
+
 # Add the 3 initial experiences from your pre-vampire life. This will require a short name for each memory added to memories list and descriptions. Complicated
+    os.system('cls')
+    print("Mortals: ", ", ".join(mortalsList))
+    print("Skills: ", ", ".join(skillsList))
+    print("Resources: ", ", ".join(resourcesList))
     initialContents = 0
     for initialContents in range(3):
-        addInfo = input("What is the name of a resource you had? ")
-        description = ask_for_input(40)
-        resourcesList.append(addInfo)
+        print("Combine at least 2 skills, resources, or mortals together into an experience you remember. /n Give it a short name (40 chars max): ")
+        addInfo = ask_for_input(40)
+        description = ask_for_input(250)
+        
+        # Every iteration it should add one memory to slots 2,3,4. I don't know a different way to do this...
+        if initialContents == 0:
+            memoryList2.append(addInfo)
+        elif initialContents == 1:
+            memoryList3.append(addInfo)
+        elif initialContents == 2:
+            memoryList4.append(addInfo)
+
         f = open(gameName + ".txt", "a") 
-        f.write("A resource they had was: " + addInfo + "\n" + description + "\n\n")
+        f.write("An early memory they had was: " + addInfo + "\n" + description + "\n\n")
         f.close()
-"""
+    print("Memory 2: ", ", ".join(memoryList2))
+    print("Memory 3: ", ", ".join(memoryList3))
+    print("Memory 4: ", ", ".join(memoryList4))
+
 
 
 # Add the initial immortal who created you
     addInfo = input("Who was the immortal that turned you? ")
     description = ask_for_input()
-    mortalsList.append(addInfo)
+    immortalsList.append(addInfo)
     f = open(gameName + ".txt", "a") 
     f.write("The immortal that turned them was " + addInfo + "\n" + description + "\n\n")
     f.close()
 
-# Add the mark identifying them as a vampire
+# Add the mark identifying you as a vampire
     addInfo = input("What mark distinguishes you as a vampire? ")
     description = ask_for_input()
-    mortalsList.append(addInfo)
+    marksList.append(addInfo)
     f = open(gameName + ".txt", "a") 
     f.write("The mark that distinguishes them as a vampire: " + addInfo + "\n" + description + "\n\n")
     f.close()
@@ -389,7 +410,6 @@ def gameStart():
 #------------------------------------------------------------------------------------#
 
 gameStart()
-print("Mortals: ",", " .join(mortalsList))
 
 
 """
