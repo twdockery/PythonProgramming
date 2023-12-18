@@ -26,6 +26,7 @@ diaryList2 = []
 diaryList3 = []
 diaryList4 = []
 
+global gameName
 memoryTotal = 5  # This is the total number of memories available (initial is 5)
 
 story = 0                      # this is the first digit of the dictionary 
@@ -254,6 +255,8 @@ dict = {
 "71-3" : ["Create a false Experience about an immortal Character, which helps you make peace with your memories of them."]
 } 
 
+
+
 """ #####################################################################
     This is the most-used function for this game. 
     It allows input to be collected with a maximum number of characters. 
@@ -280,6 +283,64 @@ def ask_for_input(max_chars = 250):
             print(f"Done. Characters remaining: {characters_remaining}")
             """
             return user_input
+
+
+#------------------------------------------------------------------------------------#
+# These are the game functions for each description
+#------------------------------------------------------------------------------------#
+
+# add a mortal to the list
+def mortal_add():  
+    addInfo = input("What is the name of the mortal? ")
+    description = ask_for_input(40)
+    mortalsList.append(addInfo)
+    f = open(gameName + ".txt", "a") 
+    f.write("/n" + "A new mortal became part of their life: " + addInfo + "\n\n" + description + "\n\n")
+    f.close()
+
+
+# add an immortal to the list
+def mortal_add():  
+    addInfo = input("What is the name of the immortal? ")
+    description = ask_for_input(40)
+    immortalsList.append(addInfo)
+    f = open(gameName + ".txt", "a") 
+    f.write("/n" + "A new immortal became part of their life: " + addInfo + "\n\n" + description + "\n\n")
+    f.close()
+
+
+# Add a Skill to the list
+def skills_add():
+    initialContents = 0
+    addInfo = input("What is the new skill you possess? ")
+    description = ask_for_input(40)
+    skillsList.append(addInfo)
+    f = open(gameName + ".txt", "a") 
+    f.write("They knew the skill: " + addInfo + "\n\n" + description + "\n\n")
+    f.close()
+
+
+# Add a Resourceto the list
+def resource_add():
+    addInfo = input("What is the new resource you acquired? ")
+    description = ask_for_input(40)
+    resourcesList.append(addInfo)
+    f = open(gameName + ".txt", "a") 
+    f.write("A resource they had was: " + addInfo + "\n" + description + "\n\n")
+    f.close()
+
+
+# Add a Mark to the character
+def resource_add():
+    addInfo = input("What is the new mark you've acquired? ")
+    description = ask_for_input(40)
+    marksList.append(addInfo)
+    f = open(gameName + ".txt", "a") 
+    f.write("A resource they had was: " + addInfo + "\n" + description + "\n\n")
+    f.close()
+
+
+
 
 
 #------------------------------------------------------------------------------------#
@@ -400,9 +461,53 @@ def gameStart():
     f.close()
 
 
+#------------------------------------------------------------------------------------#
+# This is the GAME PLAY FUNCTION of the game
+#------------------------------------------------------------------------------------#
+
+
+def gamePlay():
+    """
+    roll = randint(1,10) - randint(1,6)
+    if roll < 1:                # roll cannot be negative
+        roll = 0
+        alt += alt              # with zero, alt is added
+        if alt > 3:             # if already hit 3rd option, one is added and alt is reset
+            roll = 1
+            alt = 1
+    else:
+        alt = 1                 # in roll > 0 , alt is reset
+
+    turn = story + roll
+
+    print (story)
+    print (roll)
+    print (turn)
+
+    storyEntry = str(turn)+"-"+str(alt)
+    print(storyEntry)
+    print(dict[storyEntry])
+    """
 
 
 
+#------------------------------------------------------------------------------------#
+# This is the GAME END FUNCTION of the game. There are 2 distinct states
+#------------------------------------------------------------------------------------#
+def gameEnd():
+    """
+    ##################################################################################
+    # Once the character makes it past 71 on their gameplay attempt, the game ends.
+    # A new set of prompts dictates the end of the game.
+    ##################################################################################
+"""
+def gameOver():
+    """
+    ##################################################################################
+    # If a character doesn't have enough skills or resources to escape, the game ends.
+    # The game ends with a slightly different prompt, and does not continue.
+    ##################################################################################
+"""
 
 
 
@@ -411,26 +516,7 @@ def gameStart():
 #------------------------------------------------------------------------------------#
 
 gameStart()
+gamePlay()
+gameEnd()
 
 
-"""
-roll = randint(1,10) - randint(1,6)
-if roll < 1:                # roll cannot be negative
-    roll = 0
-    alt += alt              # with zero, alt is added
-    if alt > 3:             # if already hit 3rd option, one is added and alt is reset
-        roll = 1
-        alt = 1
-else:
-    alt = 1                 # in roll > 0 , alt is reset
-
-turn = story + roll
-
-print (story)
-print (roll)
-print (turn)
-
-storyEntry = str(turn)+"-"+str(alt)
-print(storyEntry)
-print(dict[storyEntry])
-"""
