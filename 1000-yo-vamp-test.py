@@ -10,7 +10,7 @@ os.system('cls')
 # Variable initial states
 #------------------------------------------------------------------------------------#
 
-skillsList = ["skillj1","stuff"]    # These values are debug only at this time
+skillsList = []    # These values are debug only at this time
 resourcesList = []
 marksList = []
 mortalsList = []
@@ -19,7 +19,7 @@ memoryList1 = ["My life before vampirism"] # First memory is always the player's
 memoryList2 = []
 memoryList3 = []
 memoryList4 = []
-memoryList5 = []
+memoryList5 = ["I was turned into a vampire"] # Last memory is always the player's turn to vampirism
 memoryList6 = []
 diaryList1 = []
 diaryList2 = []
@@ -361,7 +361,7 @@ def gameStart():
     print("Resources: ", ", ".join(resourcesList))
     initialContents = 0
     for initialContents in range(3):
-        print("Combine at least 2 skills, resources, or mortals together into an experience you remember. /n Give it a short name (40 chars max): ")
+        print(f"Combine at least 2 skills, resources, or mortals together into an experience you remember. /n Give it a short name (40 chars max): ")
         addInfo = ask_for_input(40)
         description = ask_for_input(250)
         
@@ -376,6 +376,7 @@ def gameStart():
         f = open(gameName + ".txt", "a") 
         f.write("An early memory they had was: " + addInfo + "\n" + description + "\n\n")
         f.close()
+    print("Memory 1: ", ", ".join(memoryList2))
     print("Memory 2: ", ", ".join(memoryList2))
     print("Memory 3: ", ", ".join(memoryList3))
     print("Memory 4: ", ", ".join(memoryList4))
